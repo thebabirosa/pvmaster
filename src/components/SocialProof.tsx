@@ -60,8 +60,8 @@ export default function SocialProof() {
           </div>
           <div className="flex flex-col justify-center items-center p-12 md:p-24 bg-white text-center order-1 md:order-2">
             <div className="max-w-md space-y-8">
-              <h2 className="font-display text-4xl md:text-6xl text-venus-black uppercase tracking-tight">
-                INVESTIMENTO:
+              <h2 className="font-display text-4xl md:text-5xl text-venus-black uppercase tracking-tight">
+                A DECISÃO QUE MUDA A ESTRUTURA DO SEU FUTURO.
               </h2>
               
               <div className="space-y-6">
@@ -70,7 +70,8 @@ export default function SocialProof() {
                 </p>
                 
                 <p className="font-body text-lg text-venus-black leading-relaxed">
-                  Faça sua aplicação e acesse a condição especial de pré-lançamento e torne-se uma aliada fundadora do circulo de vênus.
+                  Aplique para o Círculo Vênus.<br />
+                  Se aprovada, você acessa a condição especial de fundadora e entra na construção do seu ecossistema de lucro, previsibilidade e legado.
                 </p>
               </div>
               

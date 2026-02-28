@@ -45,6 +45,12 @@ export default function Ecosystem() {
       <Section id="stats-social-proof" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
           <div className="flex flex-col justify-center items-center p-8 md:p-24 bg-white">
+            <div className="w-full max-w-lg mb-10 text-center md:text-left">
+              <h2 className="font-display text-3xl md:text-4xl uppercase text-venus-black leading-tight">
+                Números que sustentam o <br className="hidden md:block" />
+                <span className="font-script text-4xl md:text-5xl normal-case">"The MDN & Co"</span>
+              </h2>
+            </div>
             <div className="w-full max-w-lg space-y-4">
               {[
                 { top: "+600 PARTICIPANTES E MILHARES DE CONEXÕES", bottom: "nos eventos presenciais" },
