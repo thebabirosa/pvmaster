@@ -1,6 +1,5 @@
 import Audience from "./components/Audience";
 import Ecosystem from "./components/Ecosystem";
-import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Methodology from "./components/Methodology";
 import Offer from "./components/Offer";
@@ -21,7 +20,6 @@ export default function App() {
       <Ecosystem />
       <Offer />
       <SocialProof />
-      <Footer />
     </main>
   );
 }
