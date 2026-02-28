@@ -187,7 +187,7 @@ export default function Offer() {
 
       {/* Legado & Impacto (Image 32) - Moved from SocialProof as requested */}
       <Section id="legacy" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full border-t border-venus-black/5">
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto items-center">
           {/* Column 1: Text */}
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
             <div className="space-y-8 max-w-xl mx-auto">
@@ -212,11 +212,11 @@ export default function Offer() {
           </div>
 
           {/* Column 2: Main Image */}
-          <div className="relative h-[60vh] md:h-auto overflow-hidden">
+          <div className="w-full">
             <img
               src="https://github.com/thebabirosa/images/blob/main/Design%20sem%20nome%20(12).png?raw=true"
               alt="Vênus Legacy Book"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="w-full h-auto block"
             />
           </div>
         </div>

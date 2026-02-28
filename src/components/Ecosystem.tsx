@@ -80,6 +80,148 @@ export default function Ecosystem() {
           </div>
         </div>
       </Section>
+
+      {/* Journey (Image 26) - Moved from SocialProof as requested */}
+      <Section id="curriculum" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
+            alt="Journey Background"
+            className="w-full h-full object-cover opacity-100"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto w-full text-center">
+          {/* Sun Icon */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master%20(2).png?raw=true" 
+              alt="Venus Logo" 
+              className="w-48 h-auto object-contain"
+            />
+          </div>
+
+          <div className="mb-16">
+            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight inline-flex items-baseline gap-2">
+              A SUA JORNADA DENTRO DO 
+              <span className="relative">
+                VÊNUS
+                <span className="absolute -top-4 left-0 text-[8px] font-body tracking-widest whitespace-nowrap">O CÍRCULO DE</span>
+              </span>
+            </h2>
+            <p className="font-script text-5xl md:text-7xl text-venus-black mt-4">
+              implementação & plantio
+            </p>
+          </div>
+
+          <div className="flex flex-col md:flex-row justify-center items-center mt-12">
+            {[
+              {
+                title: "clareza & personalização",
+                desc: "Diagnóstico e plano de implementação individual e personalizado"
+              },
+              {
+                title: "desenvolvimento",
+                desc: "Hotseats online e ao vivo mensal: acompanhamento e aceleração personalizado."
+              },
+              {
+                title: "divulgação",
+                desc: "acesso a todos conteúdos gravados e do CLUB e MDN academy"
+              },
+              {
+                title: "protagonismo",
+                desc: "primeiro evento com aliada, welcome kit e protagonismo."
+              }
+            ].map((item, i) => (
+              <div key={i} className="relative flex flex-col items-center -mt-8 md:-mt-0 md:-ml-12 first:mt-0 md:first:ml-0 z-0 hover:z-10 transition-all duration-300 hover:scale-105">
+                <div className="w-72 h-72 md:w-80 md:h-80 rounded-full border border-venus-black flex flex-col items-center justify-center p-10 bg-white/80 backdrop-blur-sm relative shadow-lg">
+                  {/* Star icons on top/bottom */}
+                  <div className="absolute top-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
+                  
+                  <h3 className="font-script text-4xl md:text-5xl text-venus-black mb-2 leading-none">{item.title}</h3>
+                  <div className="w-16 h-[1px] bg-venus-black/30 mb-2" />
+                  <p className="font-body text-sm md:text-base text-venus-black leading-tight max-w-[90%]">
+                    {item.desc}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Journey Part 2 - Aceleração & Colheita */}
+      <Section id="journey-part-2" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
+            alt="Journey Background"
+            className="w-full h-full object-cover opacity-100"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto w-full text-center">
+          {/* Sun Icon */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master%20(2).png?raw=true" 
+              alt="Venus Logo" 
+              className="w-48 h-auto object-contain"
+            />
+          </div>
+
+          <div className="mb-16">
+            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight inline-flex items-baseline gap-2">
+              A SUA JORNADA DENTRO DO 
+              <span className="relative">
+                VÊNUS
+                <span className="absolute -top-4 left-0 text-[8px] font-body tracking-widest whitespace-nowrap">O CÍRCULO DE</span>
+              </span>
+            </h2>
+            <p className="font-script text-5xl md:text-7xl text-venus-black mt-4">
+              aceleração & colheita
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {[
+              {
+                title: "AUTORIDADE",
+                desc: "episódio do mdncast no ar: divulgação, autoridade e impacto"
+              },
+              {
+                title: "EXECUÇÃO",
+                desc: "plano de ação e aceleração de trimestral"
+              },
+              {
+                title: "RELACIONAMENTO",
+                desc: "multiplique oportunidades com parcerias, relacionamento e conexões valiosas"
+              },
+              {
+                title: "RESULTADOS E RECONHECIMENTO",
+                desc: "aceleração de resultados, refinamento de posicionamento, e premiação"
+              }
+            ].map((item, i) => (
+              <div key={i} className="relative flex flex-col items-center">
+                <div className="w-full aspect-square rounded-full border border-venus-black flex flex-col items-center justify-center p-8 bg-white/5 backdrop-blur-[2px] relative">
+                  {/* Star icons on top/bottom */}
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
+                  <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
+                  
+                  <h3 className="font-display text-xl md:text-2xl text-venus-black mb-4 uppercase tracking-tighter">{item.title}</h3>
+                  <div className="w-full h-[1px] bg-venus-black/30 mb-4" />
+                  <p className="font-body text-sm md:text-base text-venus-black leading-tight">
+                    {item.desc}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
     </>
   );
 }

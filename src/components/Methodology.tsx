@@ -41,44 +41,6 @@ export default function Methodology() {
         </div>
       </Section>
 
-      {/* Future Vision (Image 15) */}
-      <Section id="vision" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
-          <div className="relative h-[50vh] md:h-full order-2 md:order-1">
-            <img
-              src="https://github.com/thebabirosa/images/blob/main/11.png?raw=true"
-              alt="Future Vision"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
-            <h2 className="font-display text-2xl md:text-4xl mb-8 uppercase leading-tight max-w-2xl">
-              ONDE SEU NEGÓCIO ESTARÁ APÓS 12 MESES DE REESTRUTURAÇÃO:
-            </h2>
-            
-            <div className="space-y-4 mb-8">
-              {[
-                "Ser apenas especialista e passa a ser uma líder de movimento",
-                "Viver de picos de faturamento e passa a ter previsibilidade",
-                "Operar no limite e construir um ativo valioso",
-                "Crescer com esforço e passa a escalar com estratégia"
-              ].map((item, i) => (
-                <div key={i} className="border border-venus-black rounded-lg px-6 py-4 text-center bg-white hover:bg-venus-black hover:text-white transition-colors cursor-default">
-                  <span className="font-condensed text-sm uppercase tracking-wide">{item}</span>
-                </div>
-              ))}
-            </div>
-            
-            <div className="text-center">
-              <p className="font-condensed text-sm uppercase tracking-wide mb-2">
-                Você sai de empresária ou prestadora de serviço para se tornar referência que lidera um ecossistema que gera:
-              </p>
-              <p className="font-script text-3xl md:text-4xl">liberdade, lucro e legado.</p>
-            </div>
-          </div>
-        </div>
-      </Section>
-
       {/* Automatic Demand (Image 16) */}
       <Section id="demand" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">

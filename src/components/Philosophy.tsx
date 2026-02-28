@@ -172,6 +172,13 @@ export default function Philosophy() {
       {/* Transformation (Image 14) - Moved from Methodology and updated */}
       <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+          <div className="relative h-[50vh] md:h-full">
+            <img
+              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
+              alt="Transformation"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
             <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight tracking-wide text-venus-black">
               O QUE MUDA QUANDO VOCÊ OCUPA<br/>
@@ -193,13 +200,6 @@ export default function Philosophy() {
                 Passa a ser estruturar legado.
               </p>
             </div>
-          </div>
-          <div className="relative h-[50vh] md:h-full">
-            <img
-              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
-              alt="Transformation"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
           </div>
         </div>
       </Section>
