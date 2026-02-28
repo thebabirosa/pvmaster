@@ -9,52 +9,6 @@ export default function Offer() {
 
   return (
     <>
-      {/* Stakes (Image 19) - Replaced with new layout as requested */}
-      <Section id="stakes" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white text-left">
-            <h2 className="font-display text-3xl md:text-4xl mb-8 text-venus-black uppercase whitespace-nowrap text-center md:text-left">O QUE ESTÁ EM JOGO?</h2>
-            
-            <div className="space-y-8 font-body text-lg md:text-xl text-venus-black mb-12 max-w-xl">
-              <div className="space-y-1">
-                <p>Não é uma mentoria de marketing.</p>
-                <p>Não é um grupo de networking.</p>
-                <p>Não é sobre fazer mais.</p>
-              </div>
-
-              <div className="space-y-1">
-                <p>É sobre deixar de operar no limite.</p>
-                <p>É sobre sair do modelo que depende de você e construir um ativo que trabalha a seu favor.</p>
-              </div>
-
-              <div className="space-y-1">
-                <p className="font-bold">É sobre estruturar o negócio que você vai sustentar pelos próximos 10 anos.</p>
-                <p>Porque riqueza não é pico.</p>
-              </div>
-
-              <div className="space-y-1">
-                <p className="font-bold mb-2">Riqueza é:</p>
-                <p>Liberdade</p>
-                <p>Tempo de qualidade</p>
-                <p>Paz de espírito</p>
-                <p>Legado</p>
-              </div>
-              
-              <p className="pt-4">
-                O Mastermind VÊNUS é a estrutura para isso.
-              </p>
-            </div>
-          </div>
-          <div className="relative h-[50vh] md:h-full">
-            <img
-              src="https://github.com/thebabirosa/images/blob/main/14.png?raw=true"
-              alt="O que está em jogo"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </Section>
-
       {/* Feminine Wealth (Image 8) - Moved from Philosophy as requested */}
       <Section id="feminine_wealth" className="bg-white overflow-hidden" fullWidth>
         <div className="relative w-full min-h-[60vh] md:min-h-screen flex items-center justify-center">
@@ -87,6 +41,63 @@ export default function Offer() {
                 />
               </div>
             ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* 12 Passos (Image 30) - Moved from SocialProof as requested */}
+      <Section id="masterclasses" className="bg-[#F5F3F7] py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F3F7]">
+            <div className="max-w-3xl">
+              <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-0">
+                12 PASSOS PARA CONSTRUIR
+              </h2>
+              <p className="font-script text-4xl md:text-5xl text-venus-black mb-8 -mt-2">
+                um negócio valioso
+              </p>
+              
+              <div className="space-y-3 font-body text-sm md:text-base text-venus-black uppercase tracking-wide">
+                {[
+                  "METAS DECISÃO e DIREÇÃO",
+                  "COMO MONETIZAR O SEU CAPITAL SOCIAL",
+                  "PERFIL DE CLIENTE IDEAL",
+                  "POSICIONAMENTO MAGNÉTICO | mkt vibracional",
+                  "MODELO DE NEGÓCIO & ESTERIA DE PRODUTOS",
+                  "ARQUITETURA DE OFERTAS irresistíveis",
+                  "NARRATIVAS QUE CONVERTEM - STORIES E ROTEIROS",
+                  "FUNIL DE CONTEÚDO | vendas sistêmicas",
+                  "CANAIS DE AQUISIÇÃO DE CLIENTES",
+                  "COMERCIAL: IA E AUTOMAÇÃO",
+                  "EXPANSÃO E LEGADO: CRIAÇÃO DE COMUNIDADE",
+                  "DIVULGAÇÃO E CRIAÇÃO DE EVENTOS PRESENCIAIS"
+                ].map((step, i) => (
+                  <p key={i} className="flex gap-2 items-center whitespace-nowrap">
+                    <span className="font-bold min-w-fit">MASTERCLASS {i + 1}:</span>
+                    <span className="font-medium">{step}</span>
+                  </p>
+                ))}
+              </div>
+              
+              <div className="mt-12 border border-[#B08D55] rounded-xl p-8 bg-white/40 text-center">
+                <p className="font-body font-bold text-sm md:text-lg uppercase tracking-wider text-venus-black leading-relaxed max-w-2xl mx-auto">
+                  +MASTERCLASS DAS ALIADAS DO CLUB A CONFIRMAR<br />
+                  VOCE TAMBÉM PODE TRANSBORDAR SEU CONHECIMENTO AQUI
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="relative flex items-center justify-center p-8 md:p-16 bg-[#F5F3F7]">
+            <div className="relative w-full aspect-[9/16] max-w-sm rounded-[40px] overflow-hidden shadow-2xl border-4 border-white">
+              <iframe 
+                className="absolute inset-0 w-full h-full object-cover"
+                src="https://www.youtube.com/embed/THjTKHwpD0A" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </Section>
