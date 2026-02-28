@@ -72,14 +72,14 @@ export default function Offer() {
           <h2 className="font-display text-3xl md:text-5xl text-venus-black text-center mb-16 uppercase tracking-tight">
             o que você acessa dentro do Club MDN
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {[
               "https://github.com/thebabirosa/images/blob/main/01im5.jpg?raw=true",
               "https://github.com/thebabirosa/images/blob/main/01im6.jpg?raw=true",
               "https://github.com/thebabirosa/images/blob/main/01im7.jpg?raw=true",
               "https://github.com/thebabirosa/images/blob/main/01imimag.jpg?raw=true"
             ].map((img, index) => (
-              <div key={index} className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg group">
+              <div key={index} className="relative aspect-[9/16] overflow-hidden rounded-2xl shadow-lg group">
                 <img 
                   src={img} 
                   alt={`Club MDN Access ${index + 1}`} 
@@ -97,14 +97,14 @@ export default function Offer() {
           <h2 className="font-display text-3xl md:text-5xl text-venus-black text-center mb-16 uppercase tracking-tight">
             o que você acessa dentro do Círculo de Vênus
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {[
               "https://github.com/thebabirosa/images/blob/main/01im1.jpg?raw=true",
               "https://github.com/thebabirosa/images/blob/main/01im2.jpg?raw=true",
               "https://github.com/thebabirosa/images/blob/main/01im3.jpg?raw=true",
               "https://github.com/thebabirosa/images/blob/main/01im4.jpg?raw=true"
             ].map((img, index) => (
-              <div key={index} className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg group">
+              <div key={index} className="relative aspect-[9/16] overflow-hidden rounded-2xl shadow-lg group">
                 <img 
                   src={img} 
                   alt={`Venus Circle Access ${index + 1}`} 

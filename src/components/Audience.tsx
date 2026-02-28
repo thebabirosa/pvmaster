@@ -9,7 +9,7 @@ export default function Audience() {
   return (
     <>
       {/* Target Audience (Image 11) */}
-      <Section id="audience" className="bg-[#F4F4F4] py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
+      <Section id="audience" className="bg-[#F4F4F4]" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F4F4F4]">
             <h2 className="font-display text-4xl md:text-6xl mb-4 text-venus-black">PARA QUEM É:</h2>
@@ -18,7 +18,13 @@ export default function Audience() {
             </p>
             
             <div className="space-y-4 max-w-md">
-              {["Já são autoridade", "Já têm clientes", "Já faturam", "Mas querem escalar sem exaustão"].map((item, i) => (
+              {[
+                "Já validaram seu posicionamento no mercado",
+                "Já têm clientes pagantes e autoridade construída",
+                "Já faturam de forma consistente",
+                "Mas sentem que o modelo atual chegou no limite",
+                "E estão prontas para transformar faturamento em legado"
+              ].map((item, i) => (
                 <div key={i} className="border border-venus-black rounded-xl px-6 py-4 bg-white/50 shadow-sm">
                   <span className="font-body text-lg md:text-xl font-medium text-venus-black">{item}</span>
                 </div>
@@ -36,7 +42,7 @@ export default function Audience() {
       </Section>
 
       {/* Mindset Shift (Image 12) */}
-      <Section id="mindset" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
+      <Section id="mindset" className="bg-[#F5F5F5]" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
           <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img
