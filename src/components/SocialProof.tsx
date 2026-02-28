@@ -60,7 +60,7 @@ export default function SocialProof() {
           </div>
           <div className="flex flex-col justify-center items-center p-12 md:p-24 bg-white text-center order-1 md:order-2">
             <div className="max-w-md space-y-8">
-              <h2 className="font-display text-4xl md:text-5xl text-venus-black uppercase tracking-tight">
+              <h2 className="font-display text-3xl md:text-4xl text-venus-black uppercase tracking-tight leading-snug">
                 A DECISÃO QUE MUDA A ESTRUTURA DO SEU FUTURO.
               </h2>
               
