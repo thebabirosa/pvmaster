@@ -54,7 +54,7 @@ export default function Philosophy() {
           
           <div className="relative min-h-[50vh] md:min-h-full">
             <img 
-              src="https://raw.githubusercontent.com/thebabirosa/images/refs/heads/main/MASTER%20(1).png" 
+              src="https://github.com/thebabirosa/images/blob/main/IMAGENS%20PV%20.jpg?raw=true" 
               alt="Wealth Building" 
               className="absolute inset-0 w-full h-full object-cover"
             />

@@ -34,8 +34,7 @@ export const GalleryCarousel: React.FC = () => {
 
   return (
     <section 
-      className="py-16 overflow-hidden relative border-y border-white/5"
-      style={{ backgroundColor: '#986e59' }}
+      className="py-16 overflow-hidden relative border-y border-venus-black/5 bg-white"
     >
       {/* Estilos inline para a animação (compatível com qualquer projeto React) */}
       <style>{`
@@ -52,8 +51,8 @@ export const GalleryCarousel: React.FC = () => {
       `}</style>
       
       {/* Gradientes laterais para suavizar a entrada/saída */}
-      <div className="absolute inset-y-0 left-0 w-20 md:w-40 bg-gradient-to-r from-[#986e59] to-transparent z-10" />
-      <div className="absolute inset-y-0 right-0 w-20 md:w-40 bg-gradient-to-l from-[#986e59] to-transparent z-10" />
+      <div className="absolute inset-y-0 left-0 w-20 md:w-40 bg-gradient-to-r from-white to-transparent z-10" />
+      <div className="absolute inset-y-0 right-0 w-20 md:w-40 bg-gradient-to-l from-white to-transparent z-10" />
 
       {/* Container do Scroll */}
       <div className="flex animate-gallery-scroll w-fit">

@@ -268,7 +268,7 @@ export default function SocialProof() {
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F3F7]">
             <div className="max-w-3xl">
-              <h2 className="font-display text-2xl md:text-4xl text-venus-black uppercase tracking-tight mb-0 whitespace-nowrap">
+              <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-0">
                 12 PASSOS PARA CONSTRUIR
               </h2>
               <p className="font-script text-4xl md:text-5xl text-venus-black mb-8 -mt-2">
@@ -324,7 +324,7 @@ export default function SocialProof() {
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="relative h-[60vh] md:h-auto">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/Design%20sem%20nome%20(12).png?raw=true"
+              src="https://github.com/thebabirosa/images/blob/main/11.png?raw=true"
               alt="Vênus Recognition Event"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -385,7 +385,7 @@ export default function SocialProof() {
           {/* Column 2: Main Image */}
           <div className="md:col-span-4 relative h-[60vh] md:h-auto overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1974&auto=format&fit=crop"
+              src="https://github.com/thebabirosa/images/blob/main/Design%20sem%20nome%20(12).png?raw=true"
               alt="Vênus Legacy Book"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -436,17 +436,6 @@ export default function SocialProof() {
           <img 
             src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(13).png?raw=true" 
             alt="O Chamado - Líderes Magnéticas"
-            className="w-full h-auto block"
-            referrerPolicy="no-referrer"
-          />
-        </div>
-      </Section>
-      {/* Session 37 - Updated with provided image */}
-      <Section id="session-37" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
-        <div className="w-full">
-          <img 
-            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(14).png?raw=true" 
-            alt="Session 37"
             className="w-full h-auto block"
             referrerPolicy="no-referrer"
           />
