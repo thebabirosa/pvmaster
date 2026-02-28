@@ -13,7 +13,7 @@ export default function Audience() {
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F4F4F4]">
             <h2 className="font-display text-4xl md:text-6xl mb-4 text-venus-black">PARA QUEM É:</h2>
-            <p className="font-body text-xl md:text-2xl mb-8 font-semibold text-venus-black">
+            <p className="font-body text-xl md:text-2xl mb-8 text-venus-black">
               Somos uma aceleradora estratégica para líderes que:
             </p>
             

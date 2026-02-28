@@ -52,7 +52,7 @@ export default function WealthBuilding() {
             className="w-full max-w-md"
           >
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/IMAGENS%20PV%20.jpg?raw=true" 
+              src="https://raw.githubusercontent.com/thebabirosa/images/refs/heads/main/MASTER%20(1).png" 
               alt="Wealth Building" 
               className="w-full h-auto object-contain"
               referrerPolicy="no-referrer"
