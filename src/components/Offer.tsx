@@ -66,6 +66,31 @@ export default function Offer() {
         </div>
       </Section>
 
+      {/* Club MDN Access */}
+      <Section id="club-mdn-access" className="bg-white py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="font-display text-xl md:text-3xl text-venus-black text-center mb-16 uppercase tracking-tight">
+            o que você acessa dentro do Club MDN
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+            {[
+              "https://github.com/thebabirosa/images/blob/main/01im5.jpg?raw=true",
+              "https://github.com/thebabirosa/images/blob/main/01im6.jpg?raw=true",
+              "https://github.com/thebabirosa/images/blob/main/01im7.jpg?raw=true",
+              "https://github.com/thebabirosa/images/blob/main/01imimag.jpg?raw=true"
+            ].map((img, index) => (
+              <div key={index} className="relative aspect-[9/16] overflow-hidden rounded-2xl shadow-lg group">
+                <img 
+                  src={img} 
+                  alt={`Club MDN Access ${index + 1}`} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
       {/* Venus Circle Access (Section 21) */}
       <Section id="venus-circle-access" className="bg-[#F5F5F5] py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6">
@@ -146,50 +171,6 @@ export default function Offer() {
           <p className="font-body text-sm text-venus-muted">
             Não inclui experiências premium extraordinárias ou viagens internacionais.*
           </p>
-        </div>
-      </Section>
-
-      {/* Deliverables (Image 21) - Updated to match Canva design */}
-      <Section id="deliverables" className="bg-white py-20 md:py-32">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="relative aspect-square overflow-hidden rounded-3xl shadow-2xl">
-              <img 
-                src="https://github.com/thebabirosa/images/blob/main/14.png?raw=true" 
-                alt="Deliverables" 
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-            </div>
-            <div className="space-y-8">
-              <h2 className="font-display text-2xl md:text-4xl uppercase text-venus-black leading-tight tracking-tight">
-                ONDE SEU NEGÓCIO ESTARÁ APÓS 12 MESES DE REESTRUTURAÇÃO:
-              </h2>
-              
-              <div className="space-y-4">
-                {[
-                  "De especialista que vende para líder que constrói movimento.",
-                  "De picos instáveis para previsibilidade mensal no caixa.",
-                  "De operar no limite da própria energia para construir um ativo que cresce sem depender de você.",
-                  "De crescer no esforço para escalar com estrutura, margem e direção."
-                ].map((item, i) => (
-                  <div key={i} className="border border-venus-black/20 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-all">
-                    <p className="font-body text-lg md:text-xl text-venus-black text-center">
-                      {item}
-                    </p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="pt-4 space-y-4">
-                <p className="font-body text-lg md:text-xl text-venus-black text-center">
-                  Você deixa de ser a peça central que sustenta tudo e se torna a estrategista de um ecossistema que gera:
-                </p>
-                <p className="font-script text-5xl md:text-6xl text-venus-black text-center">
-                  liberdade, lucro e legado.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </Section>
 

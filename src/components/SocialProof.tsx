@@ -247,8 +247,17 @@ export default function SocialProof() {
               ))}
             </div>
           </div>
-          <div className="relative h-[60vh] md:h-auto bg-black flex items-center justify-center">
-             <div className="text-white/50 font-display text-2xl uppercase tracking-widest">Espaço para Vídeo</div>
+          <div className="relative h-[70vh] md:h-auto bg-black flex items-center justify-center p-4 md:p-12">
+            <div className="relative w-full h-full max-w-sm aspect-[9/16] rounded-[32px] overflow-hidden shadow-2xl border-4 border-white/10">
+              <iframe 
+                className="absolute inset-0 w-full h-full object-cover"
+                src="https://www.youtube.com/embed/5vQXyxYykAE" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </Section>
@@ -345,12 +354,12 @@ export default function SocialProof() {
       
       {/* Gallery Carousel - New section as requested */}
       <GalleryCarousel />
-      {/* Legado & Impacto (Image 32) - New section as requested */}
+      {/* Legado & Impacto (Image 32) - Updated to two blocks */}
       <Section id="legacy" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full border-t border-venus-black/5">
-        <div className="grid grid-cols-1 md:grid-cols-12 h-auto md:min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           {/* Column 1: Text */}
-          <div className="md:col-span-4 flex flex-col justify-center p-12 md:p-20 bg-white">
-            <div className="space-y-8">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
+            <div className="space-y-8 max-w-xl mx-auto">
               <div className="space-y-2">
                 <h2 className="font-display text-5xl md:text-6xl text-venus-black uppercase tracking-tighter font-black leading-none">
                   LEGADO
@@ -372,49 +381,12 @@ export default function SocialProof() {
           </div>
 
           {/* Column 2: Main Image */}
-          <div className="md:col-span-4 relative h-[60vh] md:h-auto overflow-hidden">
+          <div className="relative h-[60vh] md:h-auto overflow-hidden">
             <img
               src="https://github.com/thebabirosa/images/blob/main/Design%20sem%20nome%20(12).png?raw=true"
               alt="Vênus Legacy Book"
               className="absolute inset-0 w-full h-full object-cover"
             />
-          </div>
-
-          {/* Column 3: Destination Stack */}
-          <div className="md:col-span-4 grid grid-rows-3 h-[90vh] md:h-auto">
-            <div className="relative overflow-hidden group">
-              <img
-                src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop"
-                alt="Paris"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/20" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-script text-5xl md:text-7xl text-white drop-shadow-lg">paris</span>
-              </div>
-            </div>
-            <div className="relative overflow-hidden group">
-              <img
-                src="https://images.unsplash.com/photo-1585208798174-6cedd86e019a?q=80&w=2073&auto=format&fit=crop"
-                alt="Lisboa"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/20" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-script text-5xl md:text-7xl text-white drop-shadow-lg">lisboa</span>
-              </div>
-            </div>
-            <div className="relative overflow-hidden group">
-              <img
-                src="https://images.unsplash.com/photo-1565099824688-e93eb20fe622?q=80&w=2071&auto=format&fit=crop"
-                alt="Museu do Louvre"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/20" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-script text-4xl md:text-6xl text-white drop-shadow-lg text-center px-4">museu do louvre</span>
-              </div>
-            </div>
           </div>
         </div>
       </Section>
