@@ -41,32 +41,6 @@ export default function Methodology() {
         </div>
       </Section>
 
-      {/* Transformation (Image 14) */}
-      <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
-            <h2 className="font-display text-3xl md:text-5xl mb-8 uppercase leading-snug tracking-wide">
-              O QUE MUDA QUANDO VOCÊ OCUPA<br/>
-              <span className="font-script text-3xl md:text-5xl lowercase">o lugar de escala e legado?</span>
-            </h2>
-            
-            <div className="space-y-6 font-condensed text-sm text-venus-black">
-              <p>Você para de operar em um modelo que chegou ao platô.</p>
-              <p>E constrói um ecossistema que gera lucro e liberdade.<br/>Para de se esforçar tanto para crescer.<br/>E passa a crescer com previsibilidade e lucro.</p>
-              <p>Para depender da própria energia.<br/>E passa a operar em um sistema que se retroalimenta automaticamente.</p>
-              <p>Escala não é vender mais.<br/>é construir legado além do faturamento, e que gera lucro no curto, médio e principalmente no longo prazo.</p>
-            </div>
-          </div>
-          <div className="relative h-[50vh] md:h-full">
-            <img
-              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
-              alt="Transformation"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </Section>
-
       {/* Future Vision (Image 15) */}
       <Section id="vision" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">

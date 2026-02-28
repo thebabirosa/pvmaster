@@ -135,7 +135,7 @@ export default function Philosophy() {
               MAGNETISMO & PODER PESSOAL
             </h2>
             <p className="font-script text-4xl md:text-5xl text-venus-black">
-              Magnetismo é decisão sustentada.
+              Posicionamento é decisão sustentada.
             </p>
           </div>
 
@@ -163,8 +163,44 @@ export default function Philosophy() {
           </div>
 
           <p className="font-body text-xl md:text-2xl text-venus-black max-w-3xl mx-auto font-medium">
-            Magnetismo nasce quando você para de agradar e sustenta o seu poder pessoal.
+            Magnetismo nasce quando sua identidade está alinhada com sua estrutura.<br/>
+            E o mercado sente.
           </p>
+        </div>
+      </Section>
+
+      {/* Transformation (Image 14) - Moved from Methodology and updated */}
+      <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
+            <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight tracking-wide text-venus-black">
+              O QUE MUDA QUANDO VOCÊ OCUPA<br/>
+              <span className="font-script text-4xl md:text-5xl lowercase block mt-2">o lugar de escala e legado?</span>
+            </h2>
+            
+            <div className="space-y-8 font-body text-lg md:text-xl text-venus-black max-w-xl">
+              <p>Você para de operar no limite.</p>
+              
+              <p>Você constrói um ecossistema que gera lucro no curto, médio e longo prazo.</p>
+              
+              <p>
+                Você deixa de depender da própria energia para crescer.<br/>
+                Você passa a operar dentro de um sistema que se retroalimenta.
+              </p>
+              
+              <p>
+                Escalar deixa de ser vender mais.<br/>
+                Passa a ser estruturar legado.
+              </p>
+            </div>
+          </div>
+          <div className="relative h-[50vh] md:h-full">
+            <img
+              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
+              alt="Transformation"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
         </div>
       </Section>
     </>

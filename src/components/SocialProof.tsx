@@ -25,7 +25,7 @@ export default function SocialProof() {
           {/* Sun Icon */}
           <div className="flex justify-center mb-8">
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master.png?raw=true" 
+              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master%20(2).png?raw=true" 
               alt="Sun Icon" 
               className="w-24 h-24 object-contain brightness-0"
             />
@@ -63,8 +63,8 @@ export default function SocialProof() {
                 desc: "primeiro evento com aliada, welcome kit e protagonismo."
               }
             ].map((item, i) => (
-              <div key={i} className="relative flex flex-col items-center -mt-8 md:-mt-0 md:-ml-24 first:mt-0 md:first:ml-0 z-0 hover:z-10 transition-all duration-300 hover:scale-105">
-                <div className="w-72 h-72 md:w-80 md:h-80 rounded-full border border-venus-black flex flex-col items-center justify-center p-8 bg-white/80 backdrop-blur-sm relative shadow-lg">
+              <div key={i} className="relative flex flex-col items-center -mt-8 md:-mt-0 md:-ml-12 first:mt-0 md:first:ml-0 z-0 hover:z-10 transition-all duration-300 hover:scale-105">
+                <div className="w-72 h-72 md:w-80 md:h-80 rounded-full border border-venus-black flex flex-col items-center justify-center p-10 bg-white/80 backdrop-blur-sm relative shadow-lg">
                   {/* Star icons on top/bottom */}
                   <div className="absolute top-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
                   <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
@@ -96,7 +96,7 @@ export default function SocialProof() {
           {/* Sun Icon */}
           <div className="flex justify-center mb-8">
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master.png?raw=true" 
+              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master%20(2).png?raw=true" 
               alt="Sun Icon" 
               className="w-24 h-24 object-contain brightness-0"
             />
@@ -115,7 +115,7 @@ export default function SocialProof() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
               {
                 title: "AUTORIDADE",
@@ -354,43 +354,6 @@ export default function SocialProof() {
       
       {/* Gallery Carousel - New section as requested */}
       <GalleryCarousel />
-      {/* Legado & Impacto (Image 32) - Updated to two blocks */}
-      <Section id="legacy" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full border-t border-venus-black/5">
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
-          {/* Column 1: Text */}
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
-            <div className="space-y-8 max-w-xl mx-auto">
-              <div className="space-y-2">
-                <h2 className="font-display text-5xl md:text-6xl text-venus-black uppercase tracking-tighter font-black leading-none">
-                  LEGADO
-                </h2>
-                <p className="font-script text-5xl md:text-6xl text-venus-black">
-                  & impacto
-                </p>
-              </div>
-              
-              <div className="space-y-6">
-                <p className="font-body text-xl md:text-2xl text-venus-black leading-snug">
-                  Em 2026, vamos lançar um livro em co-autoria com as aliadas do club, que desejam se tornar escritoras, com lançamentos previstos no Brasil e na Europa, em parceria com uma instituição de impacto social.
-                </p>
-                <p className="font-body text-sm md:text-base text-venus-black/60 leading-relaxed">
-                  Participação opcional, mediante adesão específica e investimento independente da assinatura do Club.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Column 2: Main Image */}
-          <div className="relative h-[60vh] md:h-auto overflow-hidden">
-            <img
-              src="https://github.com/thebabirosa/images/blob/main/Design%20sem%20nome%20(12).png?raw=true"
-              alt="Vênus Legacy Book"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </Section>
-
       {/* The Call (Image 35) - Updated with provided image */}
       <Section id="the-call" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
         <div className="w-full">
