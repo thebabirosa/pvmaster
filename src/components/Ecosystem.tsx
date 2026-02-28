@@ -3,10 +3,33 @@ import Section from "./Section";
 
 export default function Ecosystem() {
   const sections = landingPageData.sections.reduce((acc, section) => ({ ...acc, [section.id]: section }), {} as any);
-  const { mentor_bio_18 } = sections;
+  const { mentor_bio_18, brand_ecosystem_17 } = sections;
 
   return (
     <>
+      {/* Brand Ecosystem (Image 17) */}
+      <Section id="brand-ecosystem" className="bg-[#F5F5F5] py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <h2 className="font-display text-4xl md:text-6xl uppercase mb-16 tracking-tight">
+            O ECOSSISTEMA MDN COMPANY
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+            {brand_ecosystem_17.logos.map((logo: string, i: number) => (
+              <div key={i} className="px-8 py-4 border border-venus-black rounded-xl bg-white shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                <span className="font-display text-xl md:text-2xl uppercase tracking-widest text-venus-black">{logo}</span>
+              </div>
+            ))}
+          </div>
+          <div className="mt-20 relative aspect-video overflow-hidden rounded-3xl shadow-2xl max-w-5xl mx-auto">
+            <img 
+              src="https://github.com/thebabirosa/images/blob/main/12.png?raw=true" 
+              alt="Ecosystem" 
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </Section>
+
       {/* Mentor Bio (Image 17) - Replaced Ecosystem Logos as requested */}
       <Section id="mentor-bio" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">

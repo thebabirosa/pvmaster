@@ -57,7 +57,7 @@ export default function ProblemSolution() {
       {/* The Problem (Image 4) */}
       <Section id="problem" className="bg-[#3c2d23]" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#3c2d23] order-2 md:order-1 text-white">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#3c2d23] order-1 md:order-2 text-white">
             <div className="mb-12">
               <h2 className="font-display text-3xl md:text-4xl uppercase leading-none mb-2 tracking-wide whitespace-nowrap">
                 O PROBLEMA NÃO É VOCÊ,
@@ -99,7 +99,7 @@ export default function ProblemSolution() {
               </p>
             </div>
           </div>
-          <div className="relative min-h-[50vh] md:min-h-full order-1 md:order-2">
+          <div className="relative min-h-[50vh] md:min-h-full order-2 md:order-1">
             <img 
               src="https://raw.githubusercontent.com/thebabirosa/images/refs/heads/main/4.png" 
               alt="Woman in desert" 

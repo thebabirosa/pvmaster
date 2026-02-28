@@ -14,6 +14,7 @@ export default function Hero() {
           alt="Background"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-white/10 backdrop-blur-[1px]" />
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 w-full flex flex-col items-center text-center pt-12 md:pt-20 pb-32">

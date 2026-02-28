@@ -116,6 +116,41 @@ export default function Offer() {
         </div>
       </Section>
 
+      {/* Deliverables (Image 21) */}
+      <Section id="deliverables" className="bg-white py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div className="relative aspect-square overflow-hidden rounded-3xl shadow-2xl">
+              <img 
+                src="https://github.com/thebabirosa/images/blob/main/14.png?raw=true" 
+                alt="Deliverables" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            </div>
+            <div className="space-y-12">
+              <h2 className="font-display text-3xl md:text-5xl uppercase text-venus-black leading-tight">
+                {deliverables_21.headline}
+              </h2>
+              <ul className="space-y-6">
+                {deliverables_21.items.map((item: string, i: number) => (
+                  <li key={i} className="flex items-start gap-4 group">
+                    <div className="mt-1 w-6 h-6 flex items-center justify-center rounded-full bg-venus-gold text-white text-xs font-bold shrink-0 group-hover:scale-110 transition-transform">
+                      {i + 1}
+                    </div>
+                    <span className="font-body text-lg md:text-xl text-venus-black">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="pt-8">
+                <Button className="w-full md:w-auto px-12 py-5 bg-venus-black text-white hover:bg-venus-gold transition-all rounded-xl text-xl font-display uppercase tracking-widest">
+                  QUERO MINHA VAGA
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+
       {/* Bonus (Image 22) - Replaced with full image as requested */}
       <Section id="bonus" className="relative h-screen md:h-[120vh] p-0 max-w-none w-full overflow-hidden" fullWidth>
         <img

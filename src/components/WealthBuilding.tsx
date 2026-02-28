@@ -10,6 +10,7 @@ export default function WealthBuilding() {
           src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
           alt="Background"
           className="w-full h-full object-cover"
+          referrerPolicy="no-referrer"
         />
       </div>
 
@@ -51,9 +52,10 @@ export default function WealthBuilding() {
             className="w-full max-w-md"
           >
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/MASTER%20(1).png?raw=true" 
-              alt="Sun Symbol" 
+              src="https://github.com/thebabirosa/images/blob/main/IMAGENS%20PV%20.jpg?raw=true" 
+              alt="Wealth Building" 
               className="w-full h-auto object-contain"
+              referrerPolicy="no-referrer"
             />
           </motion.div>
         </div>
