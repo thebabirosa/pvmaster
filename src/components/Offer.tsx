@@ -149,7 +149,7 @@ export default function Offer() {
         </div>
       </Section>
 
-      {/* Deliverables (Image 21) */}
+      {/* Deliverables (Image 21) - Updated to match Canva design */}
       <Section id="deliverables" className="bg-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -160,39 +160,38 @@ export default function Offer() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
-            <div className="space-y-12">
-              <h2 className="font-display text-3xl md:text-5xl uppercase text-venus-black leading-tight">
-                {deliverables_21.headline}
+            <div className="space-y-8">
+              <h2 className="font-display text-2xl md:text-4xl uppercase text-venus-black leading-tight tracking-tight">
+                ONDE SEU NEGÓCIO ESTARÁ APÓS 12 MESES DE REESTRUTURAÇÃO:
               </h2>
-              <ul className="space-y-6">
-                {deliverables_21.items.map((item: string, i: number) => (
-                  <li key={i} className="flex items-start gap-4 group">
-                    <div className="mt-1 w-6 h-6 flex items-center justify-center rounded-full bg-venus-gold text-white text-xs font-bold shrink-0 group-hover:scale-110 transition-transform">
-                      {i + 1}
-                    </div>
-                    <span className="font-body text-lg md:text-xl text-venus-black">{item}</span>
-                  </li>
+              
+              <div className="space-y-4">
+                {[
+                  "De especialista que vende para líder que constrói movimento.",
+                  "De picos instáveis para previsibilidade mensal no caixa.",
+                  "De operar no limite da própria energia para construir um ativo que cresce sem depender de você.",
+                  "De crescer no esforço para escalar com estrutura, margem e direção."
+                ].map((item, i) => (
+                  <div key={i} className="border border-venus-black/20 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-all">
+                    <p className="font-body text-lg md:text-xl text-venus-black text-center">
+                      {item}
+                    </p>
+                  </div>
                 ))}
-              </ul>
-              <div className="pt-8">
-                <Button className="w-full md:w-auto px-12 py-5 bg-venus-black text-white hover:bg-venus-gold transition-all rounded-xl text-xl font-display uppercase tracking-widest">
-                  QUERO MINHA VAGA
-                </Button>
+              </div>
+
+              <div className="pt-4 space-y-4">
+                <p className="font-body text-lg md:text-xl text-venus-black text-center">
+                  Você deixa de ser a peça central que sustenta tudo e se torna a estrategista de um ecossistema que gera:
+                </p>
+                <p className="font-script text-5xl md:text-6xl text-venus-black text-center">
+                  liberdade, lucro e legado.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </Section>
-
-      {/* Bonus (Image 22) - Replaced with full image as requested */}
-      <Section id="bonus" className="relative h-screen md:h-[120vh] p-0 max-w-none w-full overflow-hidden" fullWidth>
-        <img
-          src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(11).png?raw=true"
-          alt="Bonus"
-          className="w-full h-full object-cover block"
-        />
-      </Section>
-
 
     </>
   );

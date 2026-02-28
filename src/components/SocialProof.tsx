@@ -10,17 +10,6 @@ export default function SocialProof() {
 
   return (
     <>
-      {/* Authority Numbers (Image 24) - Replaced with full image as requested */}
-      <Section id="authority" className="relative h-screen md:h-[120vh] p-0 max-w-none w-full overflow-hidden">
-        <img
-          src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(12).png?raw=true"
-          alt="Authority and Ecosystem"
-          className="w-full h-full object-cover"
-        />
-      </Section>
-
-
-
       {/* Journey (Image 26) - Replaced with "A Sua Jornada" layout as requested */}
       <Section id="curriculum" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
         {/* Background Image */}
