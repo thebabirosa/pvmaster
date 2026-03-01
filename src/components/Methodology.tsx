@@ -34,7 +34,7 @@ export default function Methodology() {
         </div>
       </Section>
 
-      {/* Journey (Image 26) - Moved from SocialProof as requested */}
+      {/* Journey (Image 26) - Moved from Offer as requested */}
       <Section id="curriculum" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
@@ -162,6 +162,42 @@ export default function Methodology() {
                     {item.desc}
                   </p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Deliverables (New Section) */}
+      <Section id="deliverables" className="bg-[#F5F5F5] py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight mb-4">
+              DENTRO DO VAMOS IMPLEMENTAR
+            </h2>
+            <p className="font-script text-4xl md:text-6xl text-venus-black">
+              em 12 meses: negócio
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              "fortalecer sua marca pessoal",
+              "criar um movimento que gera legado",
+              "te posicionar como líder de movimento",
+              "criar um produto de escala, sendo: comunidade ou produto de educação que gera legado",
+              "fortalecer seu poder pessoal para sustentar sua liderança",
+              "criar um ecossistema que se retroalimenta",
+              "Como criar eventos presenciais que encantam",
+              "como implementar marketing vibracional",
+              "descobrir os melhores funis de vendas e canais de aquisição de clientes para o seu negócio",
+              "Ferramentas de tecnologia e ia para aceleração e automação de vendas."
+            ].map((item, i) => (
+              <div key={i} className="bg-white border border-venus-black/20 p-8 rounded-2xl hover:shadow-lg transition-shadow">
+                <div className="text-venus-gold text-2xl mb-4">✦</div>
+                <p className="font-body text-lg text-venus-black leading-relaxed">
+                  {item}
+                </p>
               </div>
             ))}
           </div>

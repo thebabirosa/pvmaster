@@ -7,6 +7,15 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-white">
+      {/* Desktop Background Image */}
+      <div className="absolute inset-0 z-0 hidden md:block">
+        <img 
+          src="https://github.com/thebabirosa/images/blob/main/001Co%CC%81pia%20de%20PV%20MASTERMIND.png?raw=true" 
+          alt="Hero Background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center md:items-start text-center md:text-left pt-12 md:pt-32 pb-12 md:pb-32">
         {/* Desktop Logo */}
         <motion.div
