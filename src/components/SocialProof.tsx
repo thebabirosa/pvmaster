@@ -94,7 +94,7 @@ export default function SocialProof() {
           {/* Image Column */}
           <div className="relative h-[50vh] md:h-full">
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(13).png?raw=true" 
+              src="https://github.com/thebabirosa/images/blob/main/001IMAGENS%20PV%20%20(4).png?raw=true" 
               alt="Pre-Launch Offer" 
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -102,7 +102,7 @@ export default function SocialProof() {
           {/* Text Column */}
           <div className="flex flex-col justify-center items-center text-center p-12 md:p-24 bg-[#F5F5F5]">
             <div className="max-w-xl">
-              <h2 className="font-display text-2xl md:text-4xl text-venus-black uppercase tracking-tight mb-8 font-bold leading-tight">
+              <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-8 font-bold leading-snug max-w-lg mx-auto">
                 Oferta especial de pré-lançamento para as aliadas fundadoras:
               </h2>
               <p className="font-body text-lg md:text-xl text-venus-black mb-12 leading-relaxed">
