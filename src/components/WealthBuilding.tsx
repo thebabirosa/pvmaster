@@ -22,7 +22,7 @@ export default function WealthBuilding() {
           </p>
           
           <div className="space-y-0">
-            <h2 className="font-display text-2xl sm:text-3xl md:text-5xl uppercase leading-none text-venus-black">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-5xl uppercase leading-tight text-venus-black">
               CONSTRUINDO RIQUEZA
             </h2>
             <p className="font-script text-4xl md:text-6xl lowercase text-venus-black -mt-2 md:-mt-4 relative z-10">

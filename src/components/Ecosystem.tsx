@@ -110,19 +110,6 @@ export default function Ecosystem() {
         />
       </Section>
 
-      {/* Letter (New Section) */}
-      <Section id="letter" className="bg-[#F5F5F5] py-20 px-6 max-w-none w-full">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-white p-12 md:p-16 shadow-xl border border-venus-black/10 relative">
-            <div className="text-6xl text-venus-gold absolute -top-8 left-1/2 -translate-x-1/2">❝</div>
-            <p className="font-script text-3xl md:text-5xl text-venus-black leading-relaxed">
-              uma nova ruptura digital vem ai, e vai gerar caos e oportunidades. só que agora, nós
-              podemos antecipar e se preparar.
-            </p>
-          </div>
-        </div>
-      </Section>
-
       {/* Stakes (Image 19) - Moved from SocialProof and modified */}
       <Section id="stakes" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">

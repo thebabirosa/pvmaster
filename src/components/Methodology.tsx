@@ -89,7 +89,7 @@ export default function Methodology() {
                   <div className="absolute top-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
                   <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
                   
-                  <h3 className="font-script text-4xl md:text-5xl text-venus-black mb-2 leading-none">{item.title}</h3>
+                  <h3 className="font-script text-4xl md:text-5xl text-venus-black mb-2 leading-tight">{item.title}</h3>
                   <div className="w-16 h-[1px] bg-venus-black/30 mb-2" />
                   <p className="font-body text-sm md:text-base text-venus-black leading-tight max-w-[90%]">
                     {item.desc}

@@ -43,7 +43,7 @@ export default function Offer() {
       <Section id="investment" className="bg-white py-20 px-6 max-w-7xl mx-auto w-full">
         <div className="text-center mb-16">
           <div className="relative inline-block mb-16">
-            <h2 className="font-display text-4xl md:text-6xl text-venus-black uppercase tracking-tight relative z-10">
+            <h2 className="font-display text-4xl md:text-6xl text-venus-black uppercase tracking-tight relative z-10 leading-none">
               BÔNUS EXCLUSIVO
             </h2>
             <p className="font-script text-5xl sm:text-6xl md:text-8xl text-venus-black absolute -bottom-8 sm:-bottom-10 md:-bottom-14 left-1/2 -translate-x-1/2 z-20 w-full text-center">
@@ -102,7 +102,7 @@ export default function Offer() {
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F3F7]">
             <div className="max-w-3xl">
-              <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-0">
+              <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-0 leading-tight">
                 12 PASSOS PARA CONSTRUIR
               </h2>
               <p className="font-script text-4xl md:text-5xl text-venus-black mb-8 -mt-2">

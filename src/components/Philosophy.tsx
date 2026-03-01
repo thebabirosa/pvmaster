@@ -23,7 +23,7 @@ export default function Philosophy() {
             
             <div className="relative z-10 space-y-12">
               <div className="text-center md:text-left">
-                <h2 className="font-display text-4xl md:text-6xl uppercase leading-none text-venus-black">
+                <h2 className="font-display text-4xl md:text-6xl uppercase leading-tight text-venus-black">
                   CONSTRUIR RIQUEZA
                 </h2>
                 <p className="font-script text-4xl md:text-5xl text-venus-black">

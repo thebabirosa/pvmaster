@@ -53,14 +53,22 @@ export const CalendarSection: React.FC = () => {
   return (
     <section 
       id="eventos" 
-      className="py-24 px-6 overflow-hidden"
-      style={{ backgroundColor: '#D9D9D1' }} // Cor de fundo bege/cinza
+      className="py-24 px-6 overflow-hidden relative"
     >
-      <div className="max-w-[1160px] mx-auto">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true" 
+          alt="Calendar Background" 
+          className="w-full h-full object-cover opacity-50"
+        />
+      </div>
+
+      <div className="max-w-[1160px] mx-auto relative z-10">
         
         {/* Cabeçalho da Seção */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-5xl lg:text-7xl font-anton uppercase tracking-tight mb-6 text-[#263e42]">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-anton uppercase tracking-tight mb-6 text-[#263e42]">
             CALENDÁRIO 2026 ENCONTROS PRESENCIAIS
           </h2>
         </div>

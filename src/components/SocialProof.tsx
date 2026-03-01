@@ -13,18 +13,16 @@ export default function SocialProof() {
       {/* Protagonismo & Reconhecimento (Image 31) */}
       <Section id="protagonism" className="bg-[#F5F3F7] py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
-          <div className="relative flex items-center justify-center p-8 md:p-16 bg-[#F5F3F7] order-2 md:order-1">
-            <div className="relative w-full aspect-[9/16] max-w-sm rounded-[40px] overflow-hidden shadow-2xl border-4 border-white">
-              <img 
-                src="https://github.com/thebabirosa/images/blob/main/15.png?raw=true" 
-                alt="Protagonismo e Reconhecimento" 
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-            </div>
+          <div className="relative h-[50vh] md:h-full order-2 md:order-1">
+            <img 
+              src="https://github.com/thebabirosa/images/blob/main/15.png?raw=true" 
+              alt="Protagonismo e Reconhecimento" 
+              className="absolute inset-0 w-full h-full object-cover"
+            />
           </div>
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F3F7] order-1 md:order-2">
             <div className="max-w-3xl">
-              <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight mb-2">
+              <h2 className="font-display text-2xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-none max-w-2xl">
                 PROTAGONISMO & RECONHECIMENTO
               </h2>
               <p className="font-script text-4xl md:text-6xl text-venus-black mb-8">
@@ -48,6 +46,9 @@ export default function SocialProof() {
             </div>
           </div>
         </div>
+        
+        {/* Gallery Carousel - Moved inside Protagonism section */}
+        <GalleryCarousel />
       </Section>
 
       {/* Legacy & Impact (Moved from Offer) */}
@@ -87,8 +88,37 @@ export default function SocialProof() {
         </div>
       </Section>
 
-      {/* Gallery Carousel */}
-      <GalleryCarousel />
+      {/* Pre-Launch Offer (New Section) */}
+      <Section id="pre-launch" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          {/* Image Column */}
+          <div className="relative h-[50vh] md:h-full">
+            <img 
+              src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(13).png?raw=true" 
+              alt="Pre-Launch Offer" 
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          {/* Text Column */}
+          <div className="flex flex-col justify-center items-center text-center p-12 md:p-24 bg-[#F5F5F5]">
+            <div className="max-w-xl">
+              <h2 className="font-display text-2xl md:text-4xl text-venus-black uppercase tracking-tight mb-8 font-bold leading-tight">
+                Oferta especial de pré-lançamento para as aliadas fundadoras:
+              </h2>
+              <p className="font-body text-lg md:text-xl text-venus-black mb-12 leading-relaxed">
+                Faça sua aplicação e acesse a condição especial de pré-lançamento e torne-se uma aliada fundadora do círculo de vênus.
+              </p>
+              <Button 
+                href="https://application.com" 
+                variant="primary" 
+                className="w-full md:w-auto px-12 py-5 text-lg bg-[#A67C00] hover:bg-[#8a6600] text-white"
+              >
+                APLICAR AGORA
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Section>
 
       {/* The Call (Image 33) */}
       <Section id="the-call" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
@@ -98,61 +128,6 @@ export default function SocialProof() {
             alt="The Call" 
             className="w-full h-full object-cover"
           />
-        </div>
-      </Section>
-
-      {/* Investment (CTA) */}
-      <Section id="investment-cta" className="bg-[#F5F5F5] py-20 md:py-32">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-display text-4xl md:text-6xl text-venus-black uppercase tracking-tight mb-8">
-            OFERTA ESPECIAL
-          </h2>
-          <p className="font-script text-3xl md:text-5xl text-venus-black mb-12">
-            para aliadas fundadoras
-          </p>
-          
-          <div className="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-venus-black/10 mb-12">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8 border-b border-venus-black/10 pb-8">
-              <div className="text-left">
-                <p className="font-display text-xl text-venus-muted line-through decoration-red-500/50">DE R$ 120.000,00</p>
-                <p className="font-body text-sm text-venus-muted">Investimento regular</p>
-              </div>
-              <div className="text-right">
-                <p className="font-display text-3xl md:text-4xl text-venus-black">POR 12x R$ 5.000,00</p>
-                <p className="font-body text-sm text-venus-black">ou R$ 50.000,00 à vista</p>
-              </div>
-            </div>
-            
-            <div className="space-y-4 text-left mb-8">
-              <p className="font-body text-lg text-venus-black flex items-center gap-2">
-                <span className="text-venus-gold">✓</span> Acesso anual ao Círculo de Vênus
-              </p>
-              <p className="font-body text-lg text-venus-black flex items-center gap-2">
-                <span className="text-venus-gold">✓</span> 4 Encontros Online de Implementação
-              </p>
-              <p className="font-body text-lg text-venus-black flex items-center gap-2">
-                <span className="text-venus-gold">✓</span> Imersão Presencial (2 dias)
-              </p>
-              <p className="font-body text-lg text-venus-black flex items-center gap-2">
-                <span className="text-venus-gold">✓</span> Acesso à Comunidade Exclusiva
-              </p>
-              <p className="font-body text-lg text-venus-black flex items-center gap-2">
-                <span className="text-venus-gold">✓</span> Bônus Exclusivos para Fundadoras
-              </p>
-            </div>
-
-            <Button 
-              href="https://application.com" 
-              variant="primary" 
-              className="w-full text-xl py-6"
-            >
-              QUERO ME TORNAR UMA ALIADA
-            </Button>
-          </div>
-          
-          <p className="font-body text-sm text-venus-muted max-w-2xl mx-auto">
-            *Condição especial válida apenas para as primeiras 20 aliadas fundadoras. O valor será reajustado para o próximo lote sem aviso prévio.
-          </p>
         </div>
       </Section>
     </>

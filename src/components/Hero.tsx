@@ -51,7 +51,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
           className="mb-4 md:mb-6 max-w-2xl"
         >
-          <h1 className="font-script text-5xl md:text-7xl md:text-[5.5rem] text-venus-black leading-[0.85]">
+          <h1 className="font-script text-5xl md:text-7xl md:text-[5.5rem] text-venus-black leading-none">
             Construa riqueza e<br />legado sem exaustão.
           </h1>
         </motion.div>
