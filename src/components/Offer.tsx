@@ -24,7 +24,7 @@ export default function Offer() {
       <Section id="club-mdn-access" className="bg-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-display text-xl md:text-3xl text-venus-black text-center mb-16 uppercase tracking-tight">
-            o que você acessa dentro do Club MDN
+            O QUE VOCÊ ACESSA COMO ALIADA DO CÍRCULO DE VÊNUS
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {[
@@ -72,7 +72,7 @@ export default function Offer() {
                   "EXPANSÃO E LEGADO: CRIAÇÃO DE COMUNIDADE",
                   "DIVULGAÇÃO E CRIAÇÃO DE EVENTOS PRESENCIAIS"
                 ].map((step, i) => (
-                  <p key={i} className="flex gap-2 items-center whitespace-nowrap">
+                  <p key={i} className="flex flex-col sm:flex-row gap-1 sm:gap-2 sm:items-center">
                     <span className="font-bold min-w-fit">MASTERCLASS {i + 1}:</span>
                     <span className="font-medium">{step}</span>
                   </p>
@@ -134,7 +134,7 @@ export default function Offer() {
             <h2 className="font-display text-4xl md:text-6xl text-venus-black uppercase tracking-tight relative z-10">
               BÔNUS EXCLUSIVO
             </h2>
-            <p className="font-script text-6xl md:text-8xl text-venus-black absolute -bottom-10 md:-bottom-14 left-1/2 -translate-x-1/2 whitespace-nowrap z-20">
+            <p className="font-script text-5xl sm:text-6xl md:text-8xl text-venus-black absolute -bottom-8 sm:-bottom-10 md:-bottom-14 left-1/2 -translate-x-1/2 z-20 w-full text-center">
               Aliadas fundadoras
             </p>
           </div>

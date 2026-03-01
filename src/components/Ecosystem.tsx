@@ -18,8 +18,8 @@ export default function Ecosystem() {
             />
           </div>
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
-            <h2 className="font-display text-3xl md:text-4xl uppercase text-venus-black whitespace-nowrap">SOBRE SUA MENTORA</h2>
-            <h2 className="font-script text-5xl md:text-6xl text-venus-black mb-8 whitespace-nowrap">Paola Andreucci:</h2>
+            <h2 className="font-display text-3xl md:text-4xl uppercase text-venus-black">SOBRE SUA MENTORA</h2>
+            <h2 className="font-script text-5xl md:text-6xl text-venus-black mb-8">Paola Andreucci:</h2>
             
             <div className="space-y-6 font-body text-base text-venus-black leading-relaxed mb-12">
               <p>Paola Andreucci é estrategista de marcas valiosas, mentora e especialista em posicionamento magnético.</p>
@@ -28,15 +28,32 @@ export default function Ecosystem() {
               <p>Fundadora do Club MDN, lidera o movimento Mulher de Negócios, impactando mulheres em todo o Brasil.</p>
               <p>Paola também é host do MDNcast, palestrante e escritora, e tem como missão libertar mulheres de negócios que buscam mais liberdade, qualidade de vida e prosperidade, construindo riqueza além do lucro.</p>
             </div>
+          </div>
+        </div>
+      </Section>
 
-            <div className="w-full mt-auto">
-              <img 
-                src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(12).png?raw=true" 
-                alt="Mentor Full Image"
-                className="w-full h-auto block"
-                referrerPolicy="no-referrer"
-              />
-            </div>
+      {/* Ecosystem Logos */}
+      <Section id="ecosystem-logos" className="relative bg-white py-20 px-6 max-w-none w-full flex flex-col items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
+            alt="Background"
+            className="w-full h-full object-cover opacity-30"
+          />
+        </div>
+        
+        <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center">
+          <h2 className="font-display text-3xl md:text-5xl uppercase text-venus-black mb-12 text-center max-w-4xl leading-tight">
+            CONHEÇA O ECOSSISTEMA POR TRÁS DO CÍRCULO DE VÊNUS
+          </h2>
+          <div className="w-full rounded-[2rem] overflow-hidden shadow-2xl">
+            <img 
+              src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(12).png?raw=true" 
+              alt="Ecosystem Logos"
+              className="w-full h-auto block"
+              referrerPolicy="no-referrer"
+            />
           </div>
         </div>
       </Section>
@@ -84,144 +101,36 @@ export default function Ecosystem() {
         </div>
       </Section>
 
-      {/* Journey (Image 26) - Moved from SocialProof as requested */}
-      <Section id="curriculum" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
-            alt="Journey Background"
-            className="w-full h-full object-cover opacity-100"
-          />
-        </div>
-
-        <div className="relative z-10 max-w-7xl mx-auto w-full text-center">
-          {/* Sun Icon */}
-          <div className="flex justify-center mb-8">
-            <img 
-              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master%20(2).png?raw=true" 
-              alt="Venus Logo" 
-              className="w-48 h-auto object-contain"
-            />
-          </div>
-
-          <div className="mb-16">
-            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight inline-flex items-baseline gap-2">
-              A SUA JORNADA DENTRO DO 
-              <span className="relative">
-                VÊNUS
-                <span className="absolute -top-4 left-0 text-[8px] font-body tracking-widest whitespace-nowrap">O CÍRCULO DE</span>
-              </span>
-            </h2>
-            <p className="font-script text-5xl md:text-7xl text-venus-black mt-4">
-              implementação & plantio
-            </p>
-          </div>
-
-          <div className="flex flex-col md:flex-row justify-center items-center mt-12">
-            {[
-              {
-                title: "clareza & personalização",
-                desc: "Diagnóstico e plano de implementação individual e personalizado"
-              },
-              {
-                title: "desenvolvimento",
-                desc: "Hotseats online e ao vivo mensal: acompanhamento e aceleração personalizado."
-              },
-              {
-                title: "divulgação",
-                desc: "acesso a todos conteúdos gravados e do CLUB e MDN academy"
-              },
-              {
-                title: "protagonismo",
-                desc: "primeiro evento com aliada, welcome kit e protagonismo."
-              }
-            ].map((item, i) => (
-              <div key={i} className="relative flex flex-col items-center -mt-8 md:-mt-0 md:-ml-12 first:mt-0 md:first:ml-0 z-0 hover:z-10 transition-all duration-300 hover:scale-105">
-                <div className="w-72 h-72 md:w-80 md:h-80 rounded-full border border-venus-black flex flex-col items-center justify-center p-10 bg-white/80 backdrop-blur-sm relative shadow-lg">
-                  {/* Star icons on top/bottom */}
-                  <div className="absolute top-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
-                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
-                  
-                  <h3 className="font-script text-4xl md:text-5xl text-venus-black mb-2 leading-none">{item.title}</h3>
-                  <div className="w-16 h-[1px] bg-venus-black/30 mb-2" />
-                  <p className="font-body text-sm md:text-base text-venus-black leading-tight max-w-[90%]">
-                    {item.desc}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+      {/* Full Screen Image */}
+      <Section id="full-screen-image" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full h-screen" fullWidth>
+        <img
+          src="https://github.com/thebabirosa/images/blob/main/PV%20MASTERMIND.png?raw=true"
+          alt="PV Mastermind"
+          className="w-full h-full object-cover"
+        />
       </Section>
 
-      {/* Journey Part 2 - Aceleração & Colheita */}
-      <Section id="journey-part-2" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
-            alt="Journey Background"
-            className="w-full h-full object-cover opacity-100"
-          />
-        </div>
-
-        <div className="relative z-10 max-w-7xl mx-auto w-full text-center">
-          {/* Sun Icon */}
-          <div className="flex justify-center mb-8">
-            <img 
-              src="https://github.com/thebabirosa/images/blob/main/idv%20venus%20master%20(2).png?raw=true" 
-              alt="Venus Logo" 
-              className="w-48 h-auto object-contain"
+      {/* Stakes (Image 19) - Moved from SocialProof and modified */}
+      <Section id="stakes" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-white text-left">
+            <h2 className="font-display text-3xl md:text-4xl mb-8 text-venus-black uppercase text-center md:text-left">O QUE ESTÁ EM JOGO?</h2>
+            
+            <div className="space-y-6 font-body text-lg md:text-xl text-venus-black mb-12 max-w-xl">
+              <p>Não é apenas sobre construir riqueza sem exaustão.<br/>Não é apenas sobre construir legado.</p>
+              <p>É sobre construir um modelo de negócio capaz de sobreviver e prosperar a próxima ruptura digital.</p>
+              <p>A melhor forma de prever o futuro é olhando para o passado.<br/>Nos últimos 10 anos, as ondas digitais mudaram o jogo da economia e dos negócios.</p>
+              <p>Quem estava preparado aproveitou, que não ficou para trás.</p>
+              <p>Para te preparar para todas as oportunidades que a próxima e maior crise vai gerar, vamos criar um modelo de negócio pautado nas 2 forças que movem o mundo:</p>
+              <p className="font-bold text-2xl uppercase">pessoas & tecnologia.</p>
+            </div>
+          </div>
+          <div className="relative h-[50vh] md:h-full">
+            <img
+              src="https://github.com/thebabirosa/images/blob/main/14.png?raw=true"
+              alt="O que está em jogo"
+              className="absolute inset-0 w-full h-full object-cover"
             />
-          </div>
-
-          <div className="mb-16">
-            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight inline-flex items-baseline gap-2">
-              A SUA JORNADA DENTRO DO 
-              <span className="relative">
-                VÊNUS
-                <span className="absolute -top-4 left-0 text-[8px] font-body tracking-widest whitespace-nowrap">O CÍRCULO DE</span>
-              </span>
-            </h2>
-            <p className="font-script text-5xl md:text-7xl text-venus-black mt-4">
-              aceleração & colheita
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[
-              {
-                title: "AUTORIDADE",
-                desc: "episódio do mdncast no ar: divulgação, autoridade e impacto"
-              },
-              {
-                title: "EXECUÇÃO",
-                desc: "plano de ação e aceleração de trimestral"
-              },
-              {
-                title: "RELACIONAMENTO",
-                desc: "multiplique oportunidades com parcerias, relacionamento e conexões valiosas"
-              },
-              {
-                title: "RESULTADOS E RECONHECIMENTO",
-                desc: "aceleração de resultados, refinamento de posicionamento, e premiação"
-              }
-            ].map((item, i) => (
-              <div key={i} className="relative flex flex-col items-center">
-                <div className="w-full aspect-square rounded-full border border-venus-black flex flex-col items-center justify-center p-8 bg-white/5 backdrop-blur-[2px] relative">
-                  {/* Star icons on top/bottom */}
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
-                  <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
-                  
-                  <h3 className="font-display text-xl md:text-2xl text-venus-black mb-4 uppercase tracking-tighter">{item.title}</h3>
-                  <div className="w-full h-[1px] bg-venus-black/30 mb-4" />
-                  <p className="font-body text-sm md:text-base text-venus-black leading-tight">
-                    {item.desc}
-                  </p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </Section>

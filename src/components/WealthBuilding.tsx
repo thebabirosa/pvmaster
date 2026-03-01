@@ -15,17 +15,17 @@ export default function WealthBuilding() {
       </div>
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto px-6">
-        <div className="text-left space-y-6 order-2 md:order-1">
-          <p className="font-condensed text-base md:text-lg text-venus-black uppercase tracking-wide">
+        <div className="text-center space-y-6 order-2 md:order-1 flex flex-col items-center">
+          <p className="font-body text-base md:text-lg text-venus-black tracking-wide">
             Enquanto as mulheres comuns estão com medo<br />
             das mudanças de 2026, as Líderes Venusiana estão
           </p>
           
           <div className="space-y-0">
-            <h2 className="font-display text-3xl md:text-5xl uppercase leading-none text-venus-black whitespace-nowrap">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-5xl uppercase leading-none text-venus-black">
               CONSTRUINDO RIQUEZA
             </h2>
-            <p className="font-script text-4xl md:text-6xl lowercase text-venus-black -mt-2 md:-mt-4">
+            <p className="font-script text-4xl md:text-6xl lowercase text-venus-black -mt-2 md:-mt-4 relative z-10">
               sem exaustão
             </p>
           </div>
@@ -37,7 +37,7 @@ export default function WealthBuilding() {
             </p>
           </div>
 
-          <p className="font-condensed text-base md:text-lg text-venus-black uppercase tracking-wide max-w-xl leading-relaxed">
+          <p className="font-body text-base md:text-lg text-venus-black tracking-wide max-w-xl leading-relaxed">
             para um grupo seleto de empresárias que já
             faturam bem, mas desejam construir riqueza e
             legado com liberdade, previsibilidade e realização.
@@ -52,7 +52,7 @@ export default function WealthBuilding() {
             className="w-full max-w-md"
           >
             <img 
-              src="https://raw.githubusercontent.com/thebabirosa/images/refs/heads/main/MASTER%20(1).png" 
+              src="https://github.com/thebabirosa/images/blob/main/IMAGENS%20PV%20.png?raw=true" 
               alt="Wealth Building" 
               className="w-full h-auto object-contain"
               referrerPolicy="no-referrer"

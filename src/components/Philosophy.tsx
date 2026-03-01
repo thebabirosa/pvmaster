@@ -36,8 +36,8 @@ export default function Philosophy() {
                   "Ter um modelo de negócio que gera lucro no curto, médio e longo prazo",
                   "Construir um produto de escala que não depende 100% da sua agenda",
                   "Criar um ecossistema onde cada oferta prepara o cliente para a próxima",
-                  "Transformar autoridade em movimento",
-                  "Construir legado com liberdade."
+                  "Transformar autoridade em liderança de movimento",
+                  "Construir legado com liberdade, previsibilidade e realização"
                 ].map((item, i) => (
                   <div 
                     key={i} 
@@ -66,10 +66,10 @@ export default function Philosophy() {
 
       {/* Definition Scale (Image 9) - Replaced with Three Pillars as requested */}
       <Section id="scale" className="bg-[#F5F5F5] py-20 md:py-32">
-        <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-6xl uppercase mb-2">O MÉTODO VÊNUS É</h2>
-          <h2 className="font-display text-4xl md:text-6xl uppercase mb-4">ESTRUTURADO EM TRÊS PILARES:</h2>
-          <p className="font-script text-4xl md:text-5xl text-venus-black">Como construímos liberdade, lucro e previsibilidade</p>
+        <div className="text-center mb-16 px-4">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase mb-2">O MÉTODO VÊNUS É</h2>
+          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase mb-4 break-words">ESTRUTURADO EM TRÊS PILARES:</h2>
+          <p className="font-script text-3xl sm:text-4xl md:text-5xl text-venus-black">Como construímos liberdade, lucro e previsibilidade</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
@@ -87,7 +87,7 @@ export default function Philosophy() {
             { 
               title: "3. ESCALA E LEGADO", 
               img: "https://github.com/thebabirosa/images/blob/main/MASTER%20VENUS%20(2).png?raw=true", 
-              desc: "marketing vibracional, vendas sistêmicas, funil de vendas, canais de aquisição, tecnologia e ia" 
+              desc: "marketing vibracional, vendas sistêmicas, funil de vendas, canais de aquisição, tecnologia e ia\nEcossistemas,\nesteira de produtos,\ncomunidades & eventos presenciais" 
             }
           ].map((pillar, i) => (
             <div key={i} className="bg-white border border-venus-black p-8 text-center flex flex-col items-center">
@@ -131,11 +131,11 @@ export default function Philosophy() {
 
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 text-center">
           <div className="mb-16">
-            <h2 className="font-display text-4xl md:text-6xl uppercase tracking-tight text-venus-black mb-2 whitespace-nowrap">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tight text-venus-black mb-2">
               MAGNETISMO & PODER PESSOAL
             </h2>
             <p className="font-script text-4xl md:text-5xl text-venus-black">
-              Posicionamento é decisão sustentada.
+              Magnetismo é uma decisão sustentada.
             </p>
           </div>
 
@@ -163,44 +163,8 @@ export default function Philosophy() {
           </div>
 
           <p className="font-body text-xl md:text-2xl text-venus-black max-w-3xl mx-auto font-medium">
-            Magnetismo nasce quando sua identidade está alinhada com sua estrutura.<br/>
-            E o mercado sente.
+            O Magnetismo nasce quando você para de agradar e sustenta o seu poder pessoal.
           </p>
-        </div>
-      </Section>
-
-      {/* Transformation (Image 14) - Moved from Methodology and updated */}
-      <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
-          <div className="relative h-[50vh] md:h-full">
-            <img
-              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
-              alt="Transformation"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
-            <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight tracking-wide text-venus-black">
-              O QUE MUDA QUANDO VOCÊ OCUPA<br/>
-              <span className="font-script text-4xl md:text-5xl lowercase block mt-2">o lugar de escala e legado?</span>
-            </h2>
-            
-            <div className="space-y-8 font-body text-lg md:text-xl text-venus-black max-w-xl">
-              <p>Você para de operar no limite.</p>
-              
-              <p>Você constrói um ecossistema que gera lucro no curto, médio e longo prazo.</p>
-              
-              <p>
-                Você deixa de depender da própria energia para crescer.<br/>
-                Você passa a operar dentro de um sistema que se retroalimenta.
-              </p>
-              
-              <p>
-                Escalar deixa de ser vender mais.<br/>
-                Passa a ser estruturar legado.
-              </p>
-            </div>
-          </div>
         </div>
       </Section>
     </>

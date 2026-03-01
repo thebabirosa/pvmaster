@@ -31,10 +31,10 @@ export const landingPageData = {
       "image_reference": "2.jpg",
       "cards": [
         { "title": "VOCÊ JÁ TEM CLIENTES", "subtitle": "Mas sente que seu modelo de negócios chegou ao limite de faturamento." },
-        { "title": "VOCÊ JÁ TEM UM BOM TICKET MÉDIO.", "subtitle": "Mas opera com custo fixo alto e margem baixa." },
+        { "title": "VOCÊ JÁ TEM UM BOM TICKET MÉDIO.", "subtitle": "Mas opera com custo fixo alto e margem baixa. Você não escala, escalona com custo alto." },
         { "title": "VOCÊ JÁ É REFERÊNCIA.", "subtitle": "Mas ainda não construiu o legado, nem alcançou a liberdade que gostaria." }
       ],
-      "footer_text": "E isso não é falta de capacidade. É A AUSÊNCIA DE UM MODELO DE NEGÓCIO ESTRUTURADO PARA GERAR RIQUEZA COM LIBERDADE E LEGADO."
+      "footer_text": "É a ausência de um modelo de negócio estruturado para gerar riqueza com liberdade e legado."
     },
     {
       "id": "validation_03",

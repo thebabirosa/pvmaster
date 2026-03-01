@@ -19,11 +19,11 @@ export default function Audience() {
             
             <div className="space-y-4 max-w-md">
               {[
-                "Já validaram seu posicionamento no mercado",
-                "Já têm clientes pagantes e autoridade construída",
-                "Já faturam de forma consistente",
-                "Mas sentem que o modelo atual chegou no limite",
-                "E estão prontas para transformar faturamento em legado"
+                "Já são especialistas no que fazem.",
+                "Já tem clientes e um bom ticket médio.",
+                "Já alcançaram um bom faturamento.",
+                "Mas sentem que o modelo de negócio está limitado.",
+                "E estão prontas para se tornar líderes de movimento e transformar faturamento em escala e legado."
               ].map((item, i) => (
                 <div key={i} className="border border-venus-black rounded-xl px-6 py-4 bg-white/50 shadow-sm">
                   <span className="font-body text-lg md:text-xl font-medium text-venus-black">{item}</span>
@@ -57,11 +57,11 @@ export default function Audience() {
             <div className="space-y-4">
               {[
                 "Podem faturar mais do que estão faturando hoje",
-                "Não nasceram para depender de lançamentos",
-                "Grupo e comunidade são ativos de escala",
-                "O presencial cria autoridade que o digital não sustenta sozinho",
-                "Esforço sem estrutura não gera liberdade",
-                "O verdadeiro tesouro está na construção de longo prazo"
+                "Depender de lançamentos custa caro e gera exaustão",
+                "Sabem que grupos e comunidade são ativos de escala e legado.",
+                "Que o presencial gera profundidade e o digital escala.",
+                "Que não vai enriquecer a base de exaustão",
+                "Que o verdadeiro tesouro está na construção de longo prazo"
               ].map((point, i) => (
                 <div key={i} className="border border-venus-black rounded-full px-8 py-3 text-center hover:bg-venus-black hover:text-white transition-colors cursor-default">
                   <span className="font-body text-base md:text-lg font-medium">{point}</span>
@@ -72,7 +72,116 @@ export default function Audience() {
             <div className="mt-12 text-center md:text-right">
               <p className="font-body text-base md:text-lg">
                 Esse chamado não é para quem está começando.<br/>
-                <span className="font-bold">É para quem já construiu e agora quer escalar com liberdade.</span>
+                <span className="font-bold">É para quem já construiu e agora quer escalar com previsibilidade.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Not for who (Image 13) - Moved from Methodology */}
+      <Section id="not-for-who" className="bg-[#F4F4F4] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F4F4F4]">
+            <h2 className="font-display text-3xl md:text-4xl mb-4 text-venus-black">PARA QUEM NÃO É:</h2>
+            <p className="font-body text-xl md:text-2xl mb-8 text-venus-black">
+              Somos uma aceleradora estratégica para líderes que:
+            </p>
+            
+            <div className="space-y-4 max-w-md">
+              {[
+                "Ainda não validou produto ou modelo de negócio",
+                "Está buscando fórmula rápida",
+                "Quer aumentar faturamento sem estruturar base",
+                "Espera que alguém faça por ela",
+                "Quer crescer mantendo o mesmo modelo que já chegou no limite"
+              ].map((item, i) => (
+                <div key={i} className="border border-venus-black rounded-xl px-6 py-4 bg-white hover:bg-venus-black hover:text-white transition-colors cursor-default shadow-sm">
+                  <span className="font-body text-lg md:text-xl font-medium">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="relative h-[50vh] md:h-full">
+            <img
+              src="https://github.com/thebabirosa/images/blob/main/9.png?raw=true"
+              alt="Not for who"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </Section>
+
+      {/* Transformation (Image 14) - Moved from Methodology and updated */}
+      <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+          <div className="relative h-[50vh] md:h-full">
+            <img
+              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
+              alt="Transformation"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
+            <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight tracking-wide text-venus-black">
+              O QUE MUDA QUANDO VOCÊ OCUPA<br/>
+              <span className="font-script text-4xl md:text-5xl lowercase block mt-2">o lugar de escala e legado?</span>
+            </h2>
+            
+            <div className="space-y-8 font-body text-lg md:text-xl text-venus-black max-w-xl">
+              <p>Você para de operar no limite.</p>
+              
+              <p>Você constrói um ecossistema que gera lucro no curto, médio e longo prazo.</p>
+              
+              <p>
+                Você deixa de depender da própria energia para crescer.<br/>
+                Você passa a operar dentro de um sistema que se retroalimenta.
+              </p>
+              
+              <p>
+                Escalar deixa de ser vender mais.<br/>
+                Passa a ser estruturar legado.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Future Vision (Image 15) - Moved from SocialProof and updated */}
+      <Section id="vision" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+          <div className="relative h-[50vh] md:h-full order-2 md:order-1">
+            <img
+              src="https://github.com/thebabirosa/images/blob/main/11.png?raw=true"
+              alt="Future Vision"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
+            <h2 className="font-display text-2xl md:text-4xl mb-8 uppercase leading-tight max-w-2xl text-venus-black">
+              ONDE SEU NEGÓCIO ESTARÁ APÓS 12 MESES DE REESTRUTURAÇÃO:
+            </h2>
+            
+            <div className="space-y-6 font-body text-lg md:text-xl text-venus-black max-w-xl">
+              <p>
+                De especialista que vende<br/>
+                para líder que constrói movimento.
+              </p>
+              <p>
+                De dependência de lançamentos para construção de previsibilidade.
+              </p>
+              <p>
+                De operar no limite da própria energia<br/>
+                para construir um ativo que cresce sem depender de você.
+              </p>
+              <p>
+                De crescer no esforço<br/>
+                para escalar com estrutura, previsibilidade e lucro.
+              </p>
+              <p>
+                Você deixa de ser a peça central que sustenta tudo<br/>
+                e se torna a estrategista de um ecossistema que gera:<br/>
+                <span className="font-script text-3xl md:text-4xl mt-2 block">liberdade, lucro e legado.</span>
               </p>
             </div>
           </div>

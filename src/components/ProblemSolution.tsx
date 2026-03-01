@@ -27,10 +27,12 @@ export default function ProblemSolution() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.2 }}
-                className="bg-white border border-gray-200 p-6 text-center shadow-sm hover:shadow-md transition-shadow"
+                className="bg-white border border-gray-200 p-6 text-center shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
               >
-                <h3 className="font-display text-2xl mb-4 uppercase tracking-wide">{card.title}</h3>
-                <div className="w-full mb-6">
+                <div className="min-h-[4rem] flex items-center justify-center mb-4">
+                  <h3 className="font-display text-2xl uppercase tracking-wide">{card.title}</h3>
+                </div>
+                <div className="w-full mb-6 flex-grow flex items-center justify-center">
                    <img 
                      src={[
                        "https://github.com/thebabirosa/images/blob/main/1.png?raw=true",
@@ -38,10 +40,10 @@ export default function ProblemSolution() {
                        "https://github.com/thebabirosa/images/blob/main/3.png?raw=true"
                      ][index]} 
                      alt={card.title}
-                     className="w-full h-auto object-contain"
+                     className="w-full h-auto max-h-48 object-contain"
                    />
                 </div>
-                <p className="font-condensed text-sm uppercase tracking-wider text-venus-muted">{card.subtitle}</p>
+                <p className="font-condensed text-sm uppercase tracking-wider text-venus-muted min-h-[3rem]">{card.subtitle}</p>
               </motion.div>
             ))}
           </div>
@@ -59,7 +61,7 @@ export default function ProblemSolution() {
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#3c2d23] order-1 md:order-2 text-white">
             <div className="mb-12">
-              <h2 className="font-display text-3xl md:text-4xl uppercase leading-none mb-2 tracking-wide whitespace-nowrap">
+              <h2 className="font-display text-2xl sm:text-3xl md:text-4xl uppercase leading-none mb-2 tracking-wide">
                 O PROBLEMA NÃO É VOCÊ,
               </h2>
               <p className="font-script text-3xl md:text-4xl lowercase">
@@ -85,13 +87,13 @@ export default function ProblemSolution() {
               
               <p>
                 Força bruta sustenta resultado no curto prazo.<br />
-                <span className="font-bold">Mas nunca vai gerar liberdade que voce deseja.</span>
+                <span className="font-bold">Mas nunca vai gerar a liberdade que você deseja.</span>
               </p>
               
               <p>
                 O que constrói riqueza, liberdade e legado é a estrutura.<br />
                 Se crescer exige mais esforço, mais equipe e mais custo fixo,<br />
-                isso não é escala. Isso é sobrecarga que aprisiona.
+                isso não é escala. Isso é a sobrecarga que aprisiona.
               </p>
               
               <p>
@@ -162,17 +164,6 @@ export default function ProblemSolution() {
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-        </div>
-      </Section>
-
-      {/* Process Limiting (Image 6) */}
-      <Section id="process" className="bg-[#D2C9BD] overflow-hidden" fullWidth>
-        <div className="relative w-full min-h-[60vh] md:min-h-screen flex items-center justify-center">
-          <img 
-            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(7).png?raw=true" 
-            alt="Market Architecture" 
-            className="w-full h-full object-cover"
-          />
         </div>
       </Section>
     </>
