@@ -109,7 +109,7 @@ export default function SocialProof() {
                 Faça sua aplicação e acesse a condição especial de pré-lançamento e torne-se uma aliada fundadora do círculo de vênus.
               </p>
               <Button 
-                href="https://application.com" 
+                href="https://forms.gle/92inSZNrWUS3SQ8r7" 
                 variant="primary" 
                 className="w-full md:w-auto px-12 py-5 text-lg bg-[#A67C00] hover:bg-[#8a6600] text-white"
               >

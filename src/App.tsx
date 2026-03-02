@@ -10,7 +10,7 @@ import WealthBuilding from "./components/WealthBuilding";
 
 export default function App() {
   return (
-    <main className="bg-venus-bg min-h-screen overflow-x-hidden selection:bg-venus-gold selection:text-white">
+    <main className="relative min-h-screen w-full bg-venus-bg text-venus-black selection:bg-venus-gold selection:text-white overflow-x-hidden">
       <Hero />
       <WealthBuilding />
       <ProblemSolution />

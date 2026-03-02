@@ -22,6 +22,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
+          viewport={{ once: true }}
           className="mb-8 hidden md:block"
         >
           <img 
@@ -36,12 +37,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="mb-6 md:hidden w-full flex justify-center"
+          viewport={{ once: true }}
+          className="mb-10 md:hidden w-full flex justify-center"
         >
           <img 
             src="https://github.com/thebabirosa/images/blob/main/00000.png?raw=true" 
             alt="O Círculo de Vênus Mastermind" 
-            className="w-full max-w-md h-auto object-contain"
+            className="w-full max-w-xl h-auto object-contain scale-125"
           />
         </motion.div>
 
@@ -49,6 +51,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
+          viewport={{ once: true }}
           className="mb-4 md:mb-6 max-w-2xl"
         >
           <h1 className="font-script text-5xl md:text-7xl md:text-[5.5rem] text-venus-black leading-none">
@@ -60,6 +63,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
+          viewport={{ once: true }}
           className="mb-8 md:mb-12 max-w-xl"
         >
           <p className="font-body text-lg md:text-2xl text-venus-black leading-relaxed">
@@ -72,10 +76,12 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8 }}
           whileHover={{ scale: 1.05 }}
+          viewport={{ once: true }}
           className="relative group z-20 w-full md:w-auto"
         >
           <div className="absolute -inset-1 bg-gradient-to-r from-venus-gold to-[#D4AF37] rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
           <Button 
+            href="https://forms.gle/92inSZNrWUS3SQ8r7"
             className="relative w-full md:w-auto !bg-[#A67C00] md:!bg-white !text-white md:!text-venus-black border-none md:border-2 md:border-venus-gold hover:!bg-venus-gold hover:!text-white px-4 sm:px-10 py-4 sm:py-5 text-sm sm:text-base tracking-[0.1em] sm:tracking-[0.2em] font-bold uppercase shadow-2xl transition-all duration-300 rounded-xl md:rounded-none"
           >
             QUERO ME TORNAR ALIADA FUNDADORA

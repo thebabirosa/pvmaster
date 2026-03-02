@@ -87,7 +87,7 @@ export default function Philosophy() {
             { 
               title: "3. ESCALA E LEGADO", 
               img: "https://github.com/thebabirosa/images/blob/main/MASTER%20VENUS%20(2).png?raw=true", 
-              desc: "marketing vibracional, vendas sistêmicas, funil de vendas, canais de aquisição, tecnologia e ia\nEcossistemas,\nesteira de produtos,\ncomunidades & eventos presenciais" 
+              desc: "marketing vibracional, vendas sistêmicas, funil de vendas, canais de aquisição, tecnologia e ia" 
             }
           ].map((pillar, i) => (
             <div key={i} className="bg-white border border-venus-black p-8 text-center flex flex-col items-center">
@@ -139,7 +139,7 @@ export default function Philosophy() {
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-0 mb-16">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-0 mb-16">
             {[
               "identidade",
               "posicionamento",
@@ -151,7 +151,7 @@ export default function Philosophy() {
                 className={`
                   w-48 h-48 md:w-64 md:h-64 rounded-full border border-venus-black 
                   flex items-center justify-center bg-white/10 backdrop-blur-[2px]
-                  -ml-8 first:ml-0 md:-ml-12 md:first:ml-0
+                  -mt-6 first:mt-0 md:mt-0 md:-ml-12 md:first:ml-0
                   transition-transform hover:scale-105 hover:z-20
                 `}
               >

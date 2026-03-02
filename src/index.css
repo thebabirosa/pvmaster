@@ -31,6 +31,22 @@
   --color-venus-muted: #4A4A4A;
 }
 
+@layer base {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden; /* Vital para parar o 'travamento' de scroll lateral */
+    position: relative;
+    touch-action: pan-y; /* Melhora a resposta do toque no mobile */
+  }
+
+  /* Garante que imagens do GitHub não quebrem o layout */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
