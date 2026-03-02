@@ -102,7 +102,7 @@ export default function Ecosystem() {
       </Section>
 
       {/* Full Screen Image */}
-      <Section id="full-screen-image" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full h-screen" fullWidth>
+      <Section id="full-screen-image" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full min-h-screen" fullWidth>
         <img
           src="https://github.com/thebabirosa/images/blob/main/PV%20MASTERMIND.png?raw=true"
           alt="PV Mastermind"
@@ -112,7 +112,7 @@ export default function Ecosystem() {
 
       {/* Stakes (Image 19) - Moved from SocialProof and modified */}
       <Section id="stakes" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white text-left">
             <h2 className="font-display text-3xl md:text-4xl mb-8 text-venus-black uppercase text-center md:text-left">O QUE ESTÁ EM JOGO?</h2>
             

@@ -10,7 +10,7 @@ export default function Methodology() {
     <>
       {/* Automatic Demand (Image 16) */}
       <Section id="demand" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
             <h2 className="font-script text-3xl md:text-4xl mb-2">Escala não é sobre volume,</h2>
             <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight max-w-3xl">
