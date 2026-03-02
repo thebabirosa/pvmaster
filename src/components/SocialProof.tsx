@@ -92,7 +92,7 @@ export default function SocialProof() {
       <Section id="pre-launch" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           {/* Image Column */}
-          <div className="relative h-[50vh] md:h-full">
+          <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img 
               src="https://github.com/thebabirosa/images/blob/main/001IMAGENS%20PV%20%20(4).png?raw=true" 
               alt="Pre-Launch Offer" 
@@ -100,7 +100,7 @@ export default function SocialProof() {
             />
           </div>
           {/* Text Column */}
-          <div className="flex flex-col justify-center items-center text-center p-12 md:p-24 bg-[#F5F5F5]">
+          <div className="flex flex-col justify-center items-center text-center p-12 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
             <div className="max-w-xl">
               <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-8 font-bold leading-snug max-w-lg mx-auto">
                 Oferta especial de pré-lançamento para as aliadas fundadoras:

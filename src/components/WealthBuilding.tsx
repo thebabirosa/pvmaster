@@ -3,7 +3,7 @@ import Section from "./Section";
 
 export default function WealthBuilding() {
   return (
-    <Section id="wealth-building" className="relative py-20 md:py-32 overflow-hidden">
+    <Section id="wealth-building" className="relative py-10 md:py-20 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img

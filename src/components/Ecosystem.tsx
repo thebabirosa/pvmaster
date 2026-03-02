@@ -10,14 +10,14 @@ export default function Ecosystem() {
       {/* Mentor Bio (Image 17) - Replaced Ecosystem Logos as requested */}
       <Section id="mentor-bio" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
-          <div className="relative h-[50vh] md:h-auto md:min-h-screen">
+          <div className="relative h-[50vh] md:h-auto md:min-h-screen order-2 md:order-1">
             <img
               src="https://github.com/thebabirosa/images/blob/main/13.png?raw=true"
               alt="Paola Andreucci"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-white order-1 md:order-2">
             <h2 className="font-display text-3xl md:text-4xl uppercase text-venus-black">SOBRE SUA MENTORA</h2>
             <h2 className="font-script text-5xl md:text-6xl text-venus-black mb-8">Paola Andreucci:</h2>
             
@@ -33,7 +33,7 @@ export default function Ecosystem() {
       </Section>
 
       {/* Ecosystem Logos */}
-      <Section id="ecosystem-logos" className="relative bg-white py-20 px-6 max-w-none w-full flex flex-col items-center justify-center overflow-hidden">
+      <Section id="ecosystem-logos" className="relative bg-white py-10 px-6 max-w-none w-full flex flex-col items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img

@@ -11,7 +11,7 @@ export default function Offer() {
   return (
     <>
       {/* Access Section (Merged) */}
-      <Section id="access" className="bg-[#F5F5F5] py-20 md:py-32">
+      <Section id="access" className="bg-[#F5F5F5] py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-display text-xl md:text-3xl text-venus-black text-center mb-16 uppercase tracking-tight">
             O QUE VOCÊ ACESSA COMO ALIADA DO CÍRCULO DE VÊNUS
@@ -40,7 +40,7 @@ export default function Offer() {
       </Section>
 
       {/* Bonus Section */}
-      <Section id="investment" className="bg-white py-20 px-6 max-w-7xl mx-auto w-full">
+      <Section id="investment" className="bg-white py-10 px-6 max-w-7xl mx-auto w-full">
         <div className="text-center mb-16">
           <div className="relative inline-block mb-16">
             <h2 className="font-display text-4xl md:text-6xl text-venus-black uppercase tracking-tight relative z-10 leading-none">

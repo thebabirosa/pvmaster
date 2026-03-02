@@ -114,7 +114,7 @@ export default function ProblemSolution() {
       {/* Market Critique (Image 5) */}
       <Section id="critique" className="bg-[#f6f6f6]" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#f6f6f6] text-venus-black order-2 md:order-1">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#f6f6f6] text-venus-black">
             <div className="max-w-xl space-y-12">
               <div className="space-y-4">
                 <h2 className="font-body text-3xl md:text-4xl font-bold leading-tight">
@@ -157,7 +157,7 @@ export default function ProblemSolution() {
               </div>
             </div>
           </div>
-          <div className="relative min-h-[50vh] md:min-h-full order-1 md:order-2">
+          <div className="relative min-h-[50vh] md:min-h-full">
             <img 
               src="https://github.com/thebabirosa/images/blob/main/5.png?raw=true" 
               alt="Classical Painting" 

@@ -35,7 +35,7 @@ export default function Methodology() {
       </Section>
 
       {/* Journey (Image 26) - Moved from Offer as requested */}
-      <Section id="curriculum" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
+      <Section id="curriculum" className="relative py-12 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -102,7 +102,7 @@ export default function Methodology() {
       </Section>
 
       {/* Journey Part 2 - Aceleração & Colheita */}
-      <Section id="journey-part-2" className="relative py-24 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
+      <Section id="journey-part-2" className="relative py-12 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -169,7 +169,7 @@ export default function Methodology() {
       </Section>
 
       {/* Deliverables (New Section) */}
-      <Section id="deliverables" className="bg-[#F5F5F5] py-20 md:py-32">
+      <Section id="deliverables" className="bg-[#F5F5F5] py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight mb-4">

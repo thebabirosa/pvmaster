@@ -115,14 +115,14 @@ export default function Audience() {
       {/* Transformation (Image 14) - Moved from Methodology and updated */}
       <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="relative h-[50vh] md:h-full">
+          <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img
               src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
               alt="Transformation"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
+          <div className="flex flex-col justify-center p-12 md:p-24 bg-white order-1 md:order-2">
             <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight tracking-wide text-venus-black">
               O QUE MUDA QUANDO VOCÊ OCUPA<br/>
               <span className="font-script text-4xl md:text-5xl lowercase block mt-2">o lugar de escala e legado?</span>

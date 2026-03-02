@@ -16,7 +16,7 @@ export default function Section({ children, className = "", id, background = "li
     dark: "bg-venus-black text-white",
   };
 
-  const paddingStyles = fullWidth ? "p-0" : "py-20 md:py-32 px-6 md:px-12";
+  const paddingStyles = fullWidth ? "p-0" : "py-10 md:py-20 px-6 md:px-12";
   const containerStyles = fullWidth ? "w-full h-full" : "max-w-7xl mx-auto";
 
   return (

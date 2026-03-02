@@ -16,7 +16,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center md:items-start text-center md:text-left pt-12 md:pt-32 pb-12 md:pb-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center md:items-start text-center md:text-left pt-12 md:pt-32 pb-8 md:pb-16">
         {/* Desktop Logo */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
