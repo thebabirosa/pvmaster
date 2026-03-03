@@ -3,7 +3,7 @@ import Section from "./Section";
 
 export default function WealthBuilding() {
   return (
-    <Section id="wealth-building" className="relative py-10 md:py-20 overflow-hidden">
+    <Section id="wealth-building" className="relative py-6 md:py-20 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -14,7 +14,7 @@ export default function WealthBuilding() {
         />
       </div>
 
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto px-6">
+      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center max-w-7xl mx-auto px-6">
         <div className="text-center space-y-6 order-2 md:order-1 flex flex-col items-center">
           <p className="font-body text-base md:text-lg text-venus-black tracking-wide">
             Enquanto as mulheres comuns estão com medo
@@ -31,7 +31,7 @@ export default function WealthBuilding() {
           </div>
 
           <div className="pt-4">
-            <p className="font-script text-4xl md:text-6xl text-venus-black leading-tight">
+            <p className="font-script text-3xl md:text-5xl text-venus-black leading-tight">
               somos uma aceleradora de<br />
               escala, lucro e legado
             </p>

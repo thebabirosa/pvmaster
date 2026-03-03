@@ -41,7 +41,7 @@ export default function Hero() {
           className="mb-10 md:hidden w-full flex justify-center"
         >
           <img 
-            src="https://github.com/thebabirosa/images/blob/main/00000.png?raw=true" 
+            src="https://github.com/thebabirosa/imgg/blob/main/00000%20(1).png?raw=true" 
             alt="O Círculo de Vênus Mastermind" 
             className="w-full max-w-xl h-auto object-contain scale-125"
           />

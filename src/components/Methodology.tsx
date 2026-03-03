@@ -13,7 +13,7 @@ export default function Methodology() {
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
             <h2 className="font-script text-3xl md:text-4xl mb-2">Escala não é sobre volume,</h2>
-            <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight max-w-3xl">
+            <h2 className="font-display text-2xl md:text-3xl mb-8 uppercase leading-tight max-w-2xl">
               É SOBRE UM MODELO QUE GERA DEMANDA AUTOMÁTICA
             </h2>
             
@@ -26,7 +26,7 @@ export default function Methodology() {
           </div>
           <div className="relative h-[50vh] md:h-full">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/12.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/21.jpg?raw=true"
               alt="Automatic Demand"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -35,11 +35,11 @@ export default function Methodology() {
       </Section>
 
       {/* Journey (Image 26) - Moved from Offer as requested */}
-      <Section id="curriculum" className="relative py-12 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
+      <Section id="curriculum" className="relative py-8 md:py-12 px-4 md:px-6 max-w-none w-full h-auto md:min-h-screen flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
+            src="https://github.com/thebabirosa/imgg/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND.webp?raw=true"
             alt="Journey Background"
             className="w-full h-full object-cover opacity-100"
           />
@@ -56,7 +56,7 @@ export default function Methodology() {
           </div>
 
           <div className="mb-16">
-            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight">
+            <h2 className="font-display text-2xl md:text-4xl text-venus-black uppercase tracking-tight whitespace-normal md:whitespace-nowrap">
               A sua jornada dentro do Círculo de Vênus
             </h2>
             <p className="font-script text-5xl md:text-7xl text-venus-black mt-4">
@@ -102,11 +102,11 @@ export default function Methodology() {
       </Section>
 
       {/* Journey Part 2 - Aceleração & Colheita */}
-      <Section id="journey-part-2" className="relative py-12 px-6 max-w-none w-full overflow-hidden min-h-screen flex items-center">
+      <Section id="journey-part-2" className="relative py-8 md:py-12 px-4 md:px-6 max-w-none w-full h-auto md:min-h-screen flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
+            src="https://github.com/thebabirosa/imgg/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND.webp?raw=true"
             alt="Journey Background"
             className="w-full h-full object-cover opacity-100"
           />
@@ -123,7 +123,7 @@ export default function Methodology() {
           </div>
 
           <div className="mb-16">
-            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight">
+            <h2 className="font-display text-2xl md:text-4xl text-venus-black uppercase tracking-tight whitespace-normal md:whitespace-nowrap">
               A sua jornada dentro do Círculo de Vênus
             </h2>
             <p className="font-script text-5xl md:text-7xl text-venus-black mt-4">
@@ -131,7 +131,7 @@ export default function Methodology() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="flex flex-col md:flex-row justify-center items-center mt-12">
             {[
               {
                 title: "AUTORIDADE",
@@ -150,11 +150,11 @@ export default function Methodology() {
                 desc: "aceleração de resultados, refinamento de posicionamento, e premiação"
               }
             ].map((item, i) => (
-              <div key={i} className="relative flex flex-col items-center">
-                <div className="w-full aspect-square rounded-full border border-venus-black flex flex-col items-center justify-center p-8 bg-white/5 backdrop-blur-[2px] relative">
+              <div key={i} className="relative flex flex-col items-center -mt-8 md:-mt-0 md:-ml-12 first:mt-0 md:first:ml-0 z-0 hover:z-10 transition-all duration-300 hover:scale-105">
+                <div className="w-72 h-72 md:w-80 md:h-80 rounded-full border border-venus-black flex flex-col items-center justify-center p-8 bg-white/20 backdrop-blur-sm relative shadow-lg">
                   {/* Star icons on top/bottom */}
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
-                  <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
+                  <div className="absolute top-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-venus-black text-xl">✦</div>
                   
                   <h3 className="font-display text-xl md:text-2xl text-venus-black mb-4 uppercase tracking-tighter">{item.title}</h3>
                   <div className="w-full h-[1px] bg-venus-black/30 mb-4" />
@@ -172,8 +172,8 @@ export default function Methodology() {
       <Section id="deliverables" className="bg-[#F5F5F5] py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="font-display text-3xl md:text-5xl text-venus-black uppercase tracking-tight mb-4">
-              DENTRO DO VAMOS IMPLEMENTAR
+            <h2 className="font-display text-2xl md:text-4xl text-venus-black uppercase tracking-tight mb-4 max-w-4xl mx-auto leading-tight">
+              DENTRO DO CÍRCULO DE VÊNUS VAMOS IMPLEMENTAR
             </h2>
             <p className="font-script text-4xl md:text-6xl text-venus-black">
               em 12 meses: negócio

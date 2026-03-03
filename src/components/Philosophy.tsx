@@ -10,12 +10,12 @@ export default function Philosophy() {
     <>
       {/* Process Evolution (Image 7) */}
       <Section id="evolution" className="bg-white" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white relative overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-white relative overflow-hidden">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <img 
-                src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true" 
+                src="https://github.com/thebabirosa/imgg/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND.webp?raw=true" 
                 alt="background"
                 className="w-full h-full object-cover"
               />
@@ -23,7 +23,7 @@ export default function Philosophy() {
             
             <div className="relative z-10 space-y-12">
               <div className="text-center md:text-left">
-                <h2 className="font-display text-4xl md:text-6xl uppercase leading-tight text-venus-black">
+                <h2 className="font-display text-3xl md:text-5xl uppercase leading-tight text-venus-black max-w-md">
                   CONSTRUIR RIQUEZA
                 </h2>
                 <p className="font-script text-4xl md:text-5xl text-venus-black">
@@ -54,7 +54,7 @@ export default function Philosophy() {
           
           <div className="relative min-h-[50vh] md:min-h-full">
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/IMAGENS%20PV%20.jpg?raw=true" 
+              src="https://github.com/thebabirosa/imgg/blob/main/14.jpg?raw=true" 
               alt="Wealth Building" 
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -65,10 +65,10 @@ export default function Philosophy() {
 
 
       {/* Definition Scale (Image 9) - Replaced with Three Pillars as requested */}
-      <Section id="scale" className="bg-[#F5F5F5] py-20 md:py-32">
+      <Section id="scale" className="bg-[#F5F5F5] py-12 md:py-32">
         <div className="text-center mb-16 px-4">
-          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase mb-4 leading-tight">
-            O MÉTODO VÊNUS É<br />ESTRUTURADO EM<br />TRÊS PILARES:
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl uppercase mb-4 leading-tight max-w-4xl mx-auto">
+            O MÉTODO VÊNUS É ESTRUTURADO EM TRÊS PILARES:
           </h2>
           <p className="font-script text-3xl sm:text-4xl md:text-5xl text-venus-black">Como construímos liberdade, lucro e previsibilidade</p>
         </div>
@@ -120,11 +120,11 @@ export default function Philosophy() {
       </Section>
 
       {/* Mastermind Focus (Image 10) - Replaced with Magnetism & Personal Power */}
-      <Section id="focus" className="relative min-h-screen flex items-center justify-center overflow-hidden py-20" fullWidth>
+      <Section id="focus" className="relative h-auto md:min-h-screen flex items-center justify-center overflow-hidden py-12 md:py-20" fullWidth>
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://github.com/thebabirosa/imagesw/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true" 
+            src="https://github.com/thebabirosa/imgg/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND.webp?raw=true" 
             alt="background"
             className="w-full h-full object-cover"
           />
@@ -132,7 +132,7 @@ export default function Philosophy() {
 
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 text-center">
           <div className="mb-16">
-            <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tight text-venus-black mb-2">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-5xl uppercase tracking-tight text-venus-black mb-2 whitespace-normal md:whitespace-nowrap">
               MAGNETISMO & PODER PESSOAL
             </h2>
             <p className="font-script text-4xl md:text-5xl text-venus-black">

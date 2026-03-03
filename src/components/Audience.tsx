@@ -10,9 +10,9 @@ export default function Audience() {
     <>
       {/* Target Audience (Image 11) */}
       <Section id="audience" className="bg-[#F4F4F4]" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F4F4F4]">
-            <h2 className="font-display text-4xl md:text-6xl mb-4 text-venus-black">PARA QUEM É:</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#F4F4F4]">
+            <h2 className="font-display text-3xl md:text-5xl mb-4 text-venus-black max-w-lg">PARA QUEM É:</h2>
             <p className="font-body text-xl md:text-2xl mb-8 text-venus-black">
               Somos uma aceleradora estratégica para líderes que:
             </p>
@@ -33,7 +33,7 @@ export default function Audience() {
           </div>
           <div className="relative h-[50vh] md:h-full">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/7.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/15.jpg?raw=true"
               alt="Target Audience"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -43,16 +43,16 @@ export default function Audience() {
 
       {/* Mindset Shift (Image 12) */}
       <Section id="mindset" className="bg-[#F5F5F5]" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/8.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/18.jpg?raw=true"
               alt="Mindset Shift"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
-            <h2 className="font-display text-4xl md:text-6xl mb-8 uppercase text-center md:text-left">E SABEM QUE:</h2>
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
+            <h2 className="font-display text-3xl md:text-5xl mb-8 uppercase text-center md:text-left max-w-lg">E SABEM QUE:</h2>
             
             <div className="space-y-4">
               {[
@@ -81,8 +81,8 @@ export default function Audience() {
 
       {/* Not for who (Image 13) - Moved from Methodology */}
       <Section id="not-for-who" className="bg-[#F4F4F4] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F4F4F4]">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#F4F4F4]">
             <h2 className="font-display text-3xl md:text-4xl mb-4 text-venus-black">PARA QUEM NÃO É:</h2>
             <p className="font-body text-xl md:text-2xl mb-8 text-venus-black">
               Somos uma aceleradora estratégica para líderes que:
@@ -104,7 +104,7 @@ export default function Audience() {
           </div>
           <div className="relative h-[50vh] md:h-full">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/9.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/19.jpg?raw=true"
               alt="Not for who"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -114,16 +114,16 @@ export default function Audience() {
 
       {/* Transformation (Image 14) - Moved from Methodology and updated */}
       <Section id="transformation" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/10.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/001IMAGENS%20PV%20%20(4).jpg?raw=true"
               alt="Transformation"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white order-1 md:order-2">
-            <h2 className="font-display text-3xl md:text-4xl mb-8 uppercase leading-tight tracking-wide text-venus-black">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-white order-1 md:order-2">
+            <h2 className="font-display text-2xl md:text-3xl mb-8 uppercase leading-tight tracking-wide text-venus-black max-w-xl">
               O QUE MUDA QUANDO VOCÊ OCUPA<br/>
               <span className="font-script text-4xl md:text-5xl lowercase block mt-2">o lugar de escala e legado?</span>
             </h2>
@@ -149,16 +149,16 @@ export default function Audience() {
 
       {/* Future Vision (Image 15) - Moved from SocialProof and updated */}
       <Section id="vision" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/11.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/20.jpg?raw=true"
               alt="Future Vision"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
-            <h2 className="font-display text-2xl md:text-4xl mb-8 uppercase leading-tight max-w-2xl text-venus-black">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
+            <h2 className="font-display text-xl md:text-3xl mb-8 uppercase leading-tight max-w-xl text-venus-black">
               ONDE SEU NEGÓCIO ESTARÁ APÓS 12 MESES DE REESTRUTURAÇÃO:
             </h2>
             

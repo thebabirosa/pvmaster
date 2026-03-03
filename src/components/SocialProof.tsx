@@ -10,38 +10,41 @@ export default function SocialProof() {
 
   return (
     <>
-      {/* Protagonismo & Reconhecimento (Image 31) */}
-      <Section id="protagonism" className="relative min-h-screen flex items-center justify-center overflow-hidden py-20" fullWidth>
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://github.com/thebabirosa/imagesw/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true" 
-            alt="Protagonismo e Reconhecimento Background" 
-            className="w-full h-full object-cover"
-          />
-        </div>
+      {/* Protagonismo & Reconhecimento */}
+      <Section id="protagonism" className="bg-[#F5F5F5] py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          {/* Image Column */}
+          <div className="relative h-[50vh] md:h-full">
+            <img 
+              src="https://github.com/thebabirosa/imgg/blob/main/20.jpg?raw=true" 
+              alt="Protagonismo e Reconhecimento" 
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-display text-xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-tight">
-            PROTAGONISMO &<br />RECONHECIMENTO
-          </h2>
-          <p className="font-script text-4xl md:text-6xl text-venus-black mb-8">
-            premiação vênus
-          </p>
-          
-          <div className="space-y-6 font-body text-lg md:text-xl text-venus-black leading-relaxed max-w-3xl mx-auto">
-            <p>
-              Reconhecer a sua jornada é parte fundamental da nossa cultura.
+          {/* Text Column */}
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#F5F5F5] text-center md:text-left">
+            <h2 className="font-display text-xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-tight">
+              PROTAGONISMO &<br />RECONHECIMENTO
+            </h2>
+            <p className="font-script text-4xl md:text-6xl text-venus-black mb-8">
+              premiação vênus
             </p>
-            <p>
-              No Círculo de Vênus, celebramos quem ousa crescer e liderar.
-            </p>
-            <p>
-              As aliadas que mais se destacarem em faturamento, impacto e implementação do método serão premiadas em nossa imersão presencial.
-            </p>
-            <p className="font-bold uppercase tracking-wide text-venus-gold">
-              Placa líder venusiana
-            </p>
+            
+            <div className="space-y-6 font-body text-lg md:text-xl text-venus-black leading-relaxed max-w-xl mx-auto md:mx-0">
+              <p>
+                Reconhecer a sua jornada é parte fundamental da nossa cultura.
+              </p>
+              <p>
+                No Círculo de Vênus, celebramos quem ousa crescer e liderar.
+              </p>
+              <p>
+                As aliadas que mais se destacarem em faturamento, impacto e implementação do método serão premiadas em nossa imersão presencial.
+              </p>
+              <p className="font-bold uppercase tracking-wide text-venus-gold">
+                Placa líder venusiana
+              </p>
+            </div>
           </div>
         </div>
       </Section>
@@ -50,7 +53,7 @@ export default function SocialProof() {
       <Section id="legacy" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full border-t border-venus-black/5">
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto items-center">
           {/* Column 1: Text */}
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-white">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-white">
             <div className="space-y-8 max-w-xl mx-auto">
               <div className="space-y-2">
                 <h2 className="font-display text-5xl md:text-6xl text-venus-black uppercase tracking-tighter font-black leading-none">
@@ -89,13 +92,13 @@ export default function SocialProof() {
           {/* Image Column */}
           <div className="relative h-[50vh] md:h-full order-2 md:order-1">
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/001IMAGENS%20PV%20%20(4).png?raw=true" 
+              src="https://github.com/thebabirosa/imgg/blob/main/24.jpg?raw=true" 
               alt="Pre-Launch Offer" 
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
           {/* Text Column */}
-          <div className="flex flex-col justify-center items-center text-center p-12 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
+          <div className="flex flex-col justify-center items-center text-center p-8 md:p-24 bg-[#F5F5F5] order-1 md:order-2">
             <div className="max-w-xl">
               <h2 className="font-display text-xl md:text-3xl text-venus-black uppercase tracking-tight mb-8 font-bold leading-snug max-w-lg mx-auto">
                 Oferta especial de pré-lançamento para as aliadas fundadoras:
@@ -117,7 +120,7 @@ export default function SocialProof() {
 
       {/* The Call (Image 33) */}
       <Section id="the-call" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="relative w-full min-h-screen flex items-center justify-center">
+        <div className="relative w-full h-auto md:min-h-screen flex items-center justify-center">
           <img 
             src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(13).png?raw=true" 
             alt="The Call" 

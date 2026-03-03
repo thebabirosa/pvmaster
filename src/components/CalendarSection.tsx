@@ -69,7 +69,7 @@ export const CalendarSection: React.FC = () => {
         
         {/* Cabeçalho da Seção */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl lg:text-5xl font-anton uppercase tracking-tight mb-6 text-[#263e42]">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-anton uppercase tracking-tight mb-6 text-venus-black">
             CALENDÁRIO 2026<br />ENCONTROS PRESENCIAIS
           </h2>
         </div>
@@ -90,10 +90,10 @@ export const CalendarSection: React.FC = () => {
 
               {/* Texto */}
               <div className="bg-[#DEDEDA]/50 backdrop-blur-sm border-x border-b border-[#1A3438]/10 p-5 md:p-6 rounded-b-[20px] md:rounded-b-[24px] flex-grow flex flex-col justify-start">
-                <h4 className="font-anton text-[#1A3438] text-xl md:text-2xl lg:text-[28px] uppercase tracking-tight leading-none mb-2">
+                <h4 className="font-anton text-venus-black text-xl md:text-2xl lg:text-[28px] uppercase tracking-tight leading-none mb-2">
                   {item.title}
                 </h4>
-                <p className="text-[#1A3438] text-[13px] md:text-sm lg:text-[15px] leading-tight font-bold opacity-80 whitespace-pre-line">
+                <p className="text-venus-black text-[13px] md:text-sm lg:text-[15px] leading-tight font-bold opacity-80 whitespace-pre-line">
                   {item.text}
                 </p>
               </div>
@@ -104,7 +104,7 @@ export const CalendarSection: React.FC = () => {
 
         {/* Nota de Rodapé */}
         <div className="mt-8 text-center max-w-5xl mx-auto">
-          <p className="text-[11px] md:text-xs leading-relaxed italic text-[#263e42]/60">
+          <p className="text-[11px] md:text-xs leading-relaxed italic text-venus-black/60">
             Essa é uma previsão anual de eventos. A confirmação oficial das datas será feita com os estabelecimentos e divulgada com 20 a 30 dias de antecedência de cada encontro. As datas podem sofrer alterações conforme a disponibilidade dos locais e a relevância dos temas para as aliadas. Este planejamento está sujeito a ajustes sem aviso prévio, sempre com o objetivo de oferecer a melhor experiência possível às participantes. Os eventos podem ser cancelados caso não alcancem o número mínimo de participantes, hipótese em que haverá o reembolso integral do valor.
           </p>
         </div>

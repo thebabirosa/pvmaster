@@ -1,5 +1,6 @@
 import { landingPageData } from "../data";
 import Section from "./Section";
+import { Instagram } from "lucide-react";
 
 export default function Ecosystem() {
   const sections = landingPageData.sections.reduce((acc, section) => ({ ...acc, [section.id]: section }), {} as any);
@@ -12,7 +13,7 @@ export default function Ecosystem() {
         <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="relative h-[50vh] md:h-auto md:min-h-screen order-2 md:order-1">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/13.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/22.jpg?raw=true"
               alt="Paola Andreucci"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -21,12 +22,24 @@ export default function Ecosystem() {
             <h2 className="font-display text-3xl md:text-4xl uppercase text-venus-black">SOBRE SUA MENTORA</h2>
             <h2 className="font-script text-5xl md:text-6xl text-venus-black mb-8">Paola Andreucci:</h2>
             
-            <div className="space-y-6 font-body text-base text-venus-black leading-relaxed mb-12">
+            <div className="space-y-6 font-body text-base text-venus-black leading-relaxed mb-8">
               <p>Paola Andreucci é estrategista de marcas valiosas, mentora e especialista em posicionamento magnético.</p>
               <p>Atua com marketing digital desde 2014 e empreende no mercado digital desde 2020, tendo contribuído para a geração de mais de R$15 milhões em vendas através do digital, para diversos nichos.</p>
               <p>É fundadora da MDN Company, um ecossistema voltado ao desenvolvimento de mulheres ambiciosas e à aceleração de negócios valiosos, que integra estratégia, mentalidade, ambiência e networking de alto nível.</p>
               <p>Fundadora do Club MDN, lidera o movimento Mulher de Negócios, impactando mulheres em todo o Brasil.</p>
               <p>Paola também é host do MDNcast, palestrante e escritora, e tem como missão libertar mulheres de negócios que buscam mais liberdade, qualidade de vida e prosperidade, construindo riqueza além do lucro.</p>
+            </div>
+
+            <div className="flex items-center gap-2 mb-12">
+              <a 
+                href="https://www.instagram.com/clubmulherdenegocios/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-venus-black hover:text-venus-gold transition-colors font-body font-medium uppercase tracking-wide"
+              >
+                <Instagram className="w-6 h-6" />
+                <span>@clubmulherdenegocios</span>
+              </a>
             </div>
           </div>
         </div>
@@ -60,12 +73,16 @@ export default function Ecosystem() {
 
       {/* Stats/Social Proof (Image 29) - Moved from SocialProof as requested */}
       <Section id="stats-social-proof" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="flex flex-col justify-center items-center p-8 md:p-24 bg-white">
             <div className="w-full max-w-lg mb-10 text-center md:text-left">
               <h2 className="font-display text-3xl md:text-4xl uppercase text-venus-black leading-tight">
-                Números que sustentam o <br className="hidden md:block" />
-                <span className="font-script text-4xl md:text-5xl normal-case">"The MDN & Co"</span>
+                Os números por tras do <br className="hidden md:block" />
+                <img 
+                  src="https://github.com/thebabirosa/imgg/blob/main/idv%20venus%20master%20(5).png?raw=true" 
+                  alt="The MDN & Co" 
+                  className="h-16 md:h-20 w-auto mt-2 inline-block"
+                />
               </h2>
             </div>
             <div className="w-full max-w-lg space-y-4">
@@ -112,7 +129,7 @@ export default function Ecosystem() {
 
       {/* Stakes (Image 19) - Moved from SocialProof and modified */}
       <Section id="stakes" className="bg-white py-0 md:py-0 px-0 md:px-0 max-w-none w-full" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
           <div className="flex flex-col justify-center p-12 md:p-24 bg-white text-left">
             <h2 className="font-display text-3xl md:text-4xl mb-8 text-venus-black uppercase text-center md:text-left">O QUE ESTÁ EM JOGO?</h2>
             
@@ -127,7 +144,7 @@ export default function Ecosystem() {
           </div>
           <div className="relative h-[50vh] md:h-full">
             <img
-              src="https://github.com/thebabirosa/images/blob/main/14.png?raw=true"
+              src="https://github.com/thebabirosa/imgg/blob/main/11.jpg?raw=true"
               alt="O que está em jogo"
               className="absolute inset-0 w-full h-full object-cover"
             />

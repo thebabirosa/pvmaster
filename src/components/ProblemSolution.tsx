@@ -58,11 +58,11 @@ export default function ProblemSolution() {
       </Section>
 
       {/* The Problem (Image 4) */}
-      <Section id="problem" className="bg-[#3c2d23]" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#3c2d23] order-1 md:order-2 text-white">
+      <Section id="problem" className="bg-[#F5F5F5]" fullWidth>
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#F5F5F5] order-1 md:order-2 text-venus-black">
             <div className="mb-12">
-              <h2 className="font-display text-2xl sm:text-3xl md:text-4xl uppercase leading-tight mb-2 tracking-wide">
+              <h2 className="font-display text-xl sm:text-2xl md:text-3xl uppercase leading-tight mb-2 tracking-wide max-w-lg">
                 O PROBLEMA NÃO É VOCÊ,
               </h2>
               <p className="font-script text-3xl md:text-4xl lowercase">
@@ -104,7 +104,7 @@ export default function ProblemSolution() {
           </div>
           <div className="relative min-h-[50vh] md:min-h-full order-2 md:order-1">
             <img 
-              src="https://raw.githubusercontent.com/thebabirosa/images/refs/heads/main/4.png" 
+              src="https://github.com/thebabirosa/imgg/blob/main/12.jpg?raw=true" 
               alt="Woman in desert" 
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -114,8 +114,8 @@ export default function ProblemSolution() {
 
       {/* Market Critique (Image 5) */}
       <Section id="critique" className="bg-[#f6f6f6]" fullWidth>
-        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#f6f6f6] text-venus-black">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
+          <div className="flex flex-col justify-center p-8 md:p-24 bg-[#f6f6f6] text-venus-black">
             <div className="max-w-xl space-y-12">
               <div className="space-y-4">
                 <h2 className="font-body text-3xl md:text-4xl font-bold leading-tight">
@@ -160,7 +160,7 @@ export default function ProblemSolution() {
           </div>
           <div className="relative min-h-[50vh] md:min-h-full">
             <img 
-              src="https://github.com/thebabirosa/images/blob/main/5.png?raw=true" 
+              src="https://github.com/thebabirosa/imgg/blob/main/13.jpg?raw=true" 
               alt="Classical Painting" 
               className="absolute inset-0 w-full h-full object-cover"
             />
