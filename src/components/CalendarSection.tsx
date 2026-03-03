@@ -58,9 +58,10 @@ export const CalendarSection: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true" 
+          src="https://github.com/thebabirosa/imagesw/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true" 
           alt="Calendar Background" 
-          className="w-full h-full object-cover opacity-50"
+          className="w-full h-full object-cover"
+          referrerPolicy="no-referrer"
         />
       </div>
 
@@ -104,7 +105,7 @@ export const CalendarSection: React.FC = () => {
         {/* Nota de Rodapé */}
         <div className="mt-8 text-center max-w-5xl mx-auto">
           <p className="text-[11px] md:text-xs leading-relaxed italic text-[#263e42]/60">
-            Essa é uma previsão anual de eventos. A confirmação oficial das datas será feita com os estabelecimentos e divulgada com 20 a 30 dias de antecedência de cada encontro. As datas podem sofrer alterações conforme a disponibilidade dos locais e a relevância dos temas para as aliadas. Este planejamento está sujeito a ajustes sem aviso prévio, sempre com o objetivo de oferecer a melhor experiência possível às participantes.
+            Essa é uma previsão anual de eventos. A confirmação oficial das datas será feita com os estabelecimentos e divulgada com 20 a 30 dias de antecedência de cada encontro. As datas podem sofrer alterações conforme a disponibilidade dos locais e a relevância dos temas para as aliadas. Este planejamento está sujeito a ajustes sem aviso prévio, sempre com o objetivo de oferecer a melhor experiência possível às participantes. Os eventos podem ser cancelados caso não alcancem o número mínimo de participantes, hipótese em que haverá o reembolso integral do valor.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ export default function WealthBuilding() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://github.com/thebabirosa/images/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND.webp?raw=true"
+          src="https://github.com/thebabirosa/imagesw/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true"
           alt="Background"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"

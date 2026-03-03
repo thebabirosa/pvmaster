@@ -125,7 +125,7 @@ export default function Offer() {
                   "DIVULGAÇÃO E CRIAÇÃO DE EVENTOS PRESENCIAIS"
                 ].map((step, i) => (
                   <p key={i} className="flex flex-col sm:flex-row gap-1 sm:gap-2 sm:items-center">
-                    <span className="font-bold min-w-fit">MASTERCLASS {i + 1}:</span>
+                    <span className="font-bold min-w-fit">Passo {i + 1}:</span>
                     <span className="font-medium">{step}</span>
                   </p>
                 ))}
@@ -133,8 +133,7 @@ export default function Offer() {
               
               <div className="mt-12 border border-[#B08D55] rounded-xl p-8 bg-white/40 text-center">
                 <p className="font-body font-bold text-sm md:text-lg uppercase tracking-wider text-venus-black leading-relaxed max-w-2xl mx-auto">
-                  +MASTERCLASS DAS ALIADAS DO CLUB A CONFIRMAR<br />
-                  VOCE TAMBÉM PODE TRANSBORDAR SEU CONHECIMENTO AQUI
+                  +MASTERCLASS COM CONVIDADAS ESPECIAIS
                 </p>
               </div>
             </div>

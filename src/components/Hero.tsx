@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Desktop Background Image */}
       <div className="absolute inset-0 z-0 hidden md:block">
         <img 
-          src="https://github.com/thebabirosa/images/blob/main/001Co%CC%81pia%20de%20PV%20MASTERMIND.png?raw=true" 
+          src="https://github.com/thebabirosa/imagesw/blob/main/001Co%CC%81pia%20de%20PV%20MASTERMIND.jpg?raw=true" 
           alt="Hero Background" 
           className="w-full h-full object-cover"
         />

@@ -13,7 +13,7 @@ export default function ProblemSolution() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://github.com/thebabirosa/images/blob/main/PV%20MASTERMIND%20(9).jpg?raw=true"
+            src="https://github.com/thebabirosa/imagesw/blob/main/001Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true"
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -48,7 +48,7 @@ export default function ProblemSolution() {
             ))}
           </div>
           <div className="text-center max-w-4xl mx-auto">
-            <p className="font-script text-4xl mb-4">E isso não é falta de capacidade.</p>
+            <p className="font-script text-4xl mb-4 text-black">E isso não é falta de capacidade.</p>
             <p className="font-condensed text-sm uppercase tracking-widest text-venus-muted">
               {current_state_02.footer_text}
             </p>

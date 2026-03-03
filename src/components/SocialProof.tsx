@@ -11,44 +11,39 @@ export default function SocialProof() {
   return (
     <>
       {/* Protagonismo & Reconhecimento (Image 31) */}
-      <Section id="protagonism" className="bg-[#F5F3F7] py-0 md:py-0 px-0 md:px-0 max-w-none w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 h-auto md:min-h-screen">
-          <div className="relative h-[50vh] md:h-full order-2 md:order-1">
-            <img 
-              src="https://github.com/thebabirosa/images/blob/main/15.png?raw=true" 
-              alt="Protagonismo e Reconhecimento" 
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
-          <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F3F7] order-1 md:order-2">
-            <div className="max-w-3xl">
-              <h2 className="font-display text-xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-tight max-w-2xl">
-                PROTAGONISMO &<br />RECONHECIMENTO
-              </h2>
-              <p className="font-script text-4xl md:text-6xl text-venus-black mb-8">
-                premiação vênus
-              </p>
-              
-              <div className="space-y-6 font-body text-lg md:text-xl text-venus-black leading-relaxed">
-                <p>
-                  Reconhecer a sua jornada é parte fundamental da nossa cultura.
-                </p>
-                <p>
-                  No Círculo de Vênus, celebramos quem ousa crescer e liderar.
-                </p>
-                <p>
-                  As aliadas que mais se destacarem em faturamento, impacto e implementação do método serão premiadas em nossa imersão presencial.
-                </p>
-                <p className="font-bold uppercase tracking-wide text-venus-gold">
-                  Placa líder venusiana
-                </p>
-              </div>
-            </div>
+      <Section id="protagonism" className="relative min-h-screen flex items-center justify-center overflow-hidden py-20" fullWidth>
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://github.com/thebabirosa/imagesw/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true" 
+            alt="Protagonismo e Reconhecimento Background" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+          <h2 className="font-display text-xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-tight">
+            PROTAGONISMO &<br />RECONHECIMENTO
+          </h2>
+          <p className="font-script text-4xl md:text-6xl text-venus-black mb-8">
+            premiação vênus
+          </p>
+          
+          <div className="space-y-6 font-body text-lg md:text-xl text-venus-black leading-relaxed max-w-3xl mx-auto">
+            <p>
+              Reconhecer a sua jornada é parte fundamental da nossa cultura.
+            </p>
+            <p>
+              No Círculo de Vênus, celebramos quem ousa crescer e liderar.
+            </p>
+            <p>
+              As aliadas que mais se destacarem em faturamento, impacto e implementação do método serão premiadas em nossa imersão presencial.
+            </p>
+            <p className="font-bold uppercase tracking-wide text-venus-gold">
+              Placa líder venusiana
+            </p>
           </div>
         </div>
-        
-        {/* Gallery Carousel - Moved inside Protagonism section */}
-        <GalleryCarousel />
       </Section>
 
       {/* Legacy & Impact (Moved from Offer) */}
