@@ -13,9 +13,10 @@ export default function ProblemSolution() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://github.com/thebabirosa/imagesw/blob/main/001Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).jpg?raw=true"
+            src="https://github.com/thebabirosa/imgg/blob/main/001Co%CC%81pia%20de%20PV%20MASTERMIND%20(1).webp?raw=true"
             alt="Background"
             className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
           />
         </div>
 
