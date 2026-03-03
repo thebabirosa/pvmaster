@@ -22,8 +22,8 @@ export default function SocialProof() {
           </div>
           <div className="flex flex-col justify-center p-12 md:p-24 bg-[#F5F3F7] order-1 md:order-2">
             <div className="max-w-3xl">
-              <h2 className="font-display text-2xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-none max-w-2xl">
-                PROTAGONISMO & RECONHECIMENTO
+              <h2 className="font-display text-xl md:text-4xl lg:text-5xl text-venus-black uppercase tracking-tight mb-2 leading-tight max-w-2xl">
+                PROTAGONISMO &<br />RECONHECIMENTO
               </h2>
               <p className="font-script text-4xl md:text-6xl text-venus-black mb-8">
                 premiação vênus
@@ -40,7 +40,7 @@ export default function SocialProof() {
                   As aliadas que mais se destacarem em faturamento, impacto e implementação do método serão premiadas em nossa imersão presencial.
                 </p>
                 <p className="font-bold uppercase tracking-wide text-venus-gold">
-                  TROFÉU VÊNUS DE OURO
+                  Placa líder venusiana
                 </p>
               </div>
             </div>

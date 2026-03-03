@@ -44,7 +44,7 @@ export default function Ecosystem() {
         </div>
         
         <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center">
-          <h2 className="font-display text-3xl md:text-5xl uppercase text-venus-black mb-12 text-center max-w-4xl leading-tight">
+          <h2 className="font-display text-2xl md:text-5xl uppercase text-venus-black mb-12 text-center max-w-3xl leading-tight">
             CONHEÇA O ECOSSISTEMA POR TRÁS DO CÍRCULO DE VÊNUS
           </h2>
           <div className="w-full rounded-[2rem] overflow-hidden shadow-2xl">

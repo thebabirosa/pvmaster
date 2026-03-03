@@ -7,7 +7,7 @@ export default function WealthBuilding() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://github.com/thebabirosa/images/blob/main/C%C3%B3pia%20de%20PV%20MASTERMIND%20(1).png?raw=true"
+          src="https://github.com/thebabirosa/images/blob/main/Co%CC%81pia%20de%20PV%20MASTERMIND.webp?raw=true"
           alt="Background"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -17,7 +17,7 @@ export default function WealthBuilding() {
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto px-6">
         <div className="text-center space-y-6 order-2 md:order-1 flex flex-col items-center">
           <p className="font-body text-base md:text-lg text-venus-black tracking-wide">
-            Enquanto as mulheres comuns estão com medo<br />
+            Enquanto as mulheres comuns estão com medo
             das mudanças de 2026, as Líderes Venusiana estão
           </p>
           

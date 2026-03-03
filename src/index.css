@@ -1,3 +1,22 @@
+/* No topo do seu arquivo CSS */
+@import "tailwindcss";
+
+/* Se der erro com @layer, use CSS puro assim: */
+html, body {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  position: relative;
+  background-color: #0B0B0B;
+  margin: 0;
+  padding: 0;
+}
+
+/* Isso resolve o "atropelo" de seções */
+section {
+  position: relative;
+  width: 100%;
+  clear: both;
+}
 @import "tailwindcss";
 
 @font-face {

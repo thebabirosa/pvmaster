@@ -67,8 +67,9 @@ export default function Philosophy() {
       {/* Definition Scale (Image 9) - Replaced with Three Pillars as requested */}
       <Section id="scale" className="bg-[#F5F5F5] py-20 md:py-32">
         <div className="text-center mb-16 px-4">
-          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase mb-2">O MÉTODO VÊNUS É</h2>
-          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase mb-4 break-words">ESTRUTURADO EM TRÊS PILARES:</h2>
+          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase mb-4 leading-tight">
+            O MÉTODO VÊNUS É<br />ESTRUTURADO EM<br />TRÊS PILARES:
+          </h2>
           <p className="font-script text-3xl sm:text-4xl md:text-5xl text-venus-black">Como construímos liberdade, lucro e previsibilidade</p>
         </div>
         

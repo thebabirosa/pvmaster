@@ -69,7 +69,7 @@ export const CalendarSection: React.FC = () => {
         {/* Cabeçalho da Seção */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-anton uppercase tracking-tight mb-6 text-[#263e42]">
-            CALENDÁRIO 2026 ENCONTROS PRESENCIAIS
+            CALENDÁRIO 2026<br />ENCONTROS PRESENCIAIS
           </h2>
         </div>
 
